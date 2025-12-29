@@ -273,7 +273,8 @@ class AutoencoderDetector:
         train_reconstructions = self.model.predict(X, verbose=0)
         train_errors = np.mean((X - train_reconstructions) ** 2, axis=1)
 
-        # Threshold at 99th percentile of training errors
+        # TODO: This is too simplistic - should use validation set for threshold tuning
+        # Current approach (99th percentile) is probably too conservative
         self.threshold = np.percentile(train_errors, 99)
 
         print(f"Autoencoder trained successfully")

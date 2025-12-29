@@ -96,6 +96,7 @@ class IoTPreprocessor:
         df_out = df.copy()
 
         # Normalize per regime
+        # TODO: Handle unknown regimes gracefully (currently fails if test has new operational state)
         normalized_values = np.zeros((len(df), len(self.sensor_columns)))
 
         for regime, scaler in self.scalers.items():
