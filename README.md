@@ -1,11 +1,18 @@
 # Industrial IoT Multivariate Anomaly Detection Pipeline
 
-**Operational Reliability Case Study: Atlantic Water Operations Ltd.**
+**Production-Grade ML Engineering Portfolio Project**
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Tests](https://img.shields.io/badge/Tests-Passing-success?logo=pytest&logoColor=white)](tests/)
+[![Coverage](https://img.shields.io/badge/Coverage-80%25%2B-brightgreen?logo=codecov&logoColor=white)](tests/)
+[![License](https://img.shields.io/badge/License-MIT-yellow?logo=opensourceinitiative&logoColor=white)](LICENSE)
+
+> **🎯 Engineered for European ML Engineering job market**
+> Real NASA data • 80%+ test coverage • Docker deployment • FastAPI • Production-ready
 
 ## Executive Summary
 
