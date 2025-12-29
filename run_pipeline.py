@@ -15,7 +15,6 @@ import sys
 import subprocess
 from pathlib import Path
 
-
 def run_command(cmd: str, description: str):
     """Execute a shell command and report status."""
     print("\n" + "="*70)
@@ -35,7 +34,6 @@ def run_command(cmd: str, description: str):
     except subprocess.CalledProcessError as e:
         print(f"✗ {description} failed with error code {e.returncode}")
         return False
-
 
 def setup_environment():
     """Check and setup Python environment."""
@@ -70,14 +68,12 @@ def setup_environment():
 
     return True
 
-
 def generate_data():
     """Generate synthetic IoT sensor data."""
     return run_command(
         "python src/data_generation/iot_simulator.py",
         "Data Generation (30 days of sensor data)"
     )
-
 
 def preprocess_data():
     """Preprocess and engineer features."""
@@ -86,7 +82,6 @@ def preprocess_data():
         "Data Preprocessing & Feature Engineering"
     )
 
-
 def train_models():
     """Train all anomaly detection models."""
     return run_command(
@@ -94,14 +89,12 @@ def train_models():
         "Model Training (Isolation Forest, LOF, Autoencoder)"
     )
 
-
 def evaluate_models():
     """Evaluate models and generate reports."""
     return run_command(
         "python src/evaluation/evaluator.py",
         "Model Evaluation & KPI Analysis"
     )
-
 
 def generate_report():
     """Compile LaTeX technical report."""
@@ -120,7 +113,6 @@ def generate_report():
     print(f"  pdflatex {report_path.name}  # Run twice for references")
 
     return True
-
 
 def main():
     parser = argparse.ArgumentParser(
@@ -194,7 +186,6 @@ Examples:
         print("="*70)
         print("\nPlease check error messages above and retry.")
         sys.exit(1)
-
 
 if __name__ == '__main__':
     main()

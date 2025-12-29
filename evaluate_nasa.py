@@ -10,8 +10,6 @@ Shows realistic performance metrics that European recruiters expect to see:
 - Honest discussion of false positives and false negatives
 - Real-world trade-offs and challenges
 
-Author: Lucas William Junges
-Date: December 2024
 """
 
 import sys
@@ -28,7 +26,6 @@ import joblib
 from preprocessing.preprocessor import IoTPreprocessor
 from models.anomaly_detectors import IsolationForestDetector, LOFDetector, AutoencoderDetector
 from evaluation.evaluator import AnomalyEvaluator
-
 
 def main():
     print("=" * 80)
@@ -264,7 +261,6 @@ def main():
     print("\n📁 Results saved in: data/results/")
     print("\n🚀 Next step: Update README.md to highlight NASA dataset")
     print("\n" + "=" * 80)
-
 
 if __name__ == '__main__':
     main()

@@ -8,8 +8,6 @@ Tests cover:
 - Data quality and consistency
 - Error handling
 
-Author: Lucas William Junges
-Date: December 2024
 """
 
 import pytest
@@ -24,7 +22,6 @@ sys.path.insert(0, str(src_dir))
 
 from data_generation.iot_simulator import IndustrialPumpSimulator
 from data_generation.nasa_bearing_loader import NASABearingLoader
-
 
 # ========================================
 # IoT Simulator Tests
@@ -139,7 +136,6 @@ class TestIndustrialPumpSimulator:
 
         assert df.isnull().sum().sum() == 0  # No NaNs
 
-
 # ========================================
 # NASA Bearing Loader Tests
 # ========================================
@@ -244,7 +240,6 @@ class TestNASABearingLoader:
         # Should have some variety
         assert len(states.unique()) > 1
 
-
 # ========================================
 # Data Quality Tests
 # ========================================
@@ -276,7 +271,6 @@ def test_simulated_data_quality():
     assert df['duty_cycle'].min() >= 0
     assert df['duty_cycle'].max() <= 1.0
 
-
 def test_temporal_consistency():
     """Test that timestamps are consistent"""
     sim = IndustrialPumpSimulator(seed=42)
@@ -291,7 +285,6 @@ def test_temporal_consistency():
 
     # Allow small tolerance for floating point
     assert (deltas == expected_delta).all()
-
 
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])

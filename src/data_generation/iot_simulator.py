@@ -12,7 +12,6 @@ from datetime import datetime, timedelta
 from typing import Tuple, Dict, List
 import json
 
-
 class IndustrialPumpSimulator:
     """
     Simulates sensor data from an industrial pumping facility.
@@ -369,7 +368,6 @@ class IndustrialPumpSimulator:
 
         return df, metadata
 
-
 def main():
     """Generate and save the industrial IoT dataset."""
 
@@ -407,7 +405,6 @@ def main():
                        'flow_rate', 'current', 'duty_cycle']].describe())
 
     print(f"\nData saved to: {output_path}")
-
 
 if __name__ == '__main__':
     main()

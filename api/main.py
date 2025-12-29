@@ -11,8 +11,6 @@ Endpoints:
 - GET /models - List available models
 - GET /info - Model and system information
 
-Author: Lucas William Junges
-Date: December 2024
 """
 
 from fastapi import FastAPI, HTTPException, status
@@ -55,7 +53,6 @@ MODELS = {}
 PREPROCESSOR = None
 MODEL_DIR = Path(__file__).parent.parent / 'models'
 
-
 # ========================================
 # Pydantic Models (Request/Response)
 # ========================================
@@ -87,7 +84,6 @@ class SensorReading(BaseModel):
             }
         }
 
-
 class BatchSensorReadings(BaseModel):
     """Batch of sensor readings"""
 
@@ -110,7 +106,6 @@ class BatchSensorReadings(BaseModel):
             }
         }
 
-
 class PredictionRequest(BaseModel):
     """Prediction request with model selection"""
 
@@ -126,7 +121,6 @@ class PredictionRequest(BaseModel):
         description="Custom anomaly threshold (overrides default)"
     )
 
-
 class PredictionResponse(BaseModel):
     """Prediction response"""
 
@@ -137,7 +131,6 @@ class PredictionResponse(BaseModel):
     timestamp: str = Field(..., description="Prediction timestamp")
     explanation: Optional[str] = Field(None, description="Human-readable explanation")
 
-
 class HealthResponse(BaseModel):
     """Health check response"""
 
@@ -145,7 +138,6 @@ class HealthResponse(BaseModel):
     models_loaded: List[str]
     preprocessor_loaded: bool
     timestamp: str
-
 
 # ========================================
 # Model Loading
@@ -211,13 +203,11 @@ def load_models():
         logger.error(f"❌ Error loading models: {e}")
         raise
 
-
 # Load models on startup
 @app.on_event("startup")
 async def startup_event():
     """Load models when API starts"""
     load_models()
-
 
 # ========================================
 # API Endpoints
@@ -239,7 +229,6 @@ async def root():
         }
     }
 
-
 @app.get("/health", response_model=HealthResponse, tags=["General"])
 async def health_check():
     """Health check endpoint"""
@@ -249,7 +238,6 @@ async def health_check():
         preprocessor_loaded=PREPROCESSOR is not None,
         timestamp=datetime.now().isoformat()
     )
-
 
 @app.get("/models", tags=["Models"])
 async def list_models():
@@ -272,7 +260,6 @@ async def list_models():
         }
     }
 
-
 @app.get("/info", tags=["General"])
 async def system_info():
     """Get system and model information"""
@@ -288,7 +275,6 @@ async def system_info():
         ],
         "operational_states": ["normal", "startup", "high_load", "maintenance"]
     }
-
 
 @app.post("/predict", response_model=PredictionResponse, tags=["Prediction"])
 async def predict_anomaly(request: PredictionRequest):
@@ -387,7 +373,6 @@ async def predict_anomaly(request: PredictionRequest):
             detail=f"Prediction failed: {str(e)}"
         )
 
-
 @app.post("/predict/batch", tags=["Prediction"])
 async def predict_batch(request: BatchSensorReadings):
     """
@@ -438,7 +423,6 @@ async def predict_batch(request: BatchSensorReadings):
             detail=f"Batch prediction failed: {str(e)}"
         )
 
-
 # ========================================
 # Error Handlers
 # ========================================
@@ -451,7 +435,6 @@ async def value_error_handler(request, exc):
         content={"detail": str(exc)}
     )
 
-
 @app.exception_handler(Exception)
 async def general_exception_handler(request, exc):
     """Handle unexpected errors"""
@@ -460,7 +443,6 @@ async def general_exception_handler(request, exc):
         status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
         content={"detail": "Internal server error"}
     )
-
 
 # ========================================
 # Main

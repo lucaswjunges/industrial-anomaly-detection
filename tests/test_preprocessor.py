@@ -9,8 +9,6 @@ Tests cover:
 - Transform consistency
 - Edge cases and boundary conditions
 
-Author: Lucas William Junges
-Date: December 2024
 """
 
 import pytest
@@ -24,7 +22,6 @@ src_dir = Path(__file__).parent.parent / 'src'
 sys.path.insert(0, str(src_dir))
 
 from preprocessing.preprocessor import IoTPreprocessor
-
 
 # ========================================
 # Fixtures
@@ -50,12 +47,10 @@ def sample_data():
 
     return df
 
-
 @pytest.fixture
 def preprocessor():
     """Create fresh preprocessor instance"""
     return IoTPreprocessor()
-
 
 # ========================================
 # Initialization Tests
@@ -70,7 +65,6 @@ def test_preprocessor_initialization():
     assert prep.scalers == {}
     assert not prep.is_fitted
 
-
 def test_preprocessor_custom_params():
     """Test initialization with custom parameters"""
     prep = IoTPreprocessor(
@@ -80,7 +74,6 @@ def test_preprocessor_custom_params():
 
     assert prep.normalization_method == 'standard'
     assert prep.feature_window_size == 10
-
 
 # ========================================
 # Fitting Tests
@@ -98,7 +91,6 @@ def test_fit_creates_scalers(sample_data, preprocessor):
     for regime in unique_regimes:
         assert regime in preprocessor.scalers
 
-
 def test_fit_on_normal_data_only(sample_data, preprocessor):
     """Test fitting on normal data only (recommended practice)"""
     normal_data = sample_data[sample_data['is_anomaly'] == 0]
@@ -108,7 +100,6 @@ def test_fit_on_normal_data_only(sample_data, preprocessor):
     assert preprocessor.is_fitted
     assert len(preprocessor.scalers) > 0
 
-
 def test_fit_without_regime_column(sample_data, preprocessor):
     """Test fitting without regime-aware normalization"""
     preprocessor.fit(sample_data, regime_column=None)
@@ -116,7 +107,6 @@ def test_fit_without_regime_column(sample_data, preprocessor):
     assert preprocessor.is_fitted
     # Should have single 'global' scaler
     assert 'global' in preprocessor.scalers
-
 
 def test_fit_raises_on_missing_columns():
     """Test that fit raises error on missing sensor columns"""
@@ -131,7 +121,6 @@ def test_fit_raises_on_missing_columns():
     with pytest.raises((KeyError, ValueError)):
         prep.fit(df)
 
-
 # ========================================
 # Transform Tests
 # ========================================
@@ -141,14 +130,12 @@ def test_transform_requires_fitted(sample_data, preprocessor):
     with pytest.raises((AttributeError, ValueError)):
         preprocessor.transform(sample_data)
 
-
 def test_transform_output_shape(sample_data, preprocessor):
     """Test that transform maintains sample count"""
     preprocessor.fit(sample_data, regime_column='operational_state')
     transformed = preprocessor.transform(sample_data, regime_column='operational_state')
 
     assert len(transformed) == len(sample_data)
-
 
 def test_transform_output_is_array(sample_data, preprocessor):
     """Test that transform returns numpy array"""
@@ -158,14 +145,12 @@ def test_transform_output_is_array(sample_data, preprocessor):
     assert isinstance(transformed, np.ndarray)
     assert transformed.dtype == np.float64
 
-
 def test_transform_no_nans(sample_data, preprocessor):
     """Test that transform output has no NaN values"""
     preprocessor.fit(sample_data, regime_column='operational_state')
     transformed = preprocessor.transform(sample_data, regime_column='operational_state')
 
     assert not np.isnan(transformed).any(), "Transform output contains NaN values"
-
 
 def test_transform_consistency(sample_data, preprocessor):
     """Test that transform gives same results on repeated calls"""
@@ -175,7 +160,6 @@ def test_transform_consistency(sample_data, preprocessor):
     result2 = preprocessor.transform(sample_data, regime_column='operational_state')
 
     np.testing.assert_array_almost_equal(result1, result2)
-
 
 # ========================================
 # Feature Engineering Tests
@@ -191,7 +175,6 @@ def test_feature_engineering_increases_dimensions(sample_data, preprocessor):
 
     # Should have more features than raw sensors
     assert transformed.shape[1] >= n_sensor_columns
-
 
 # ========================================
 # Regime-Aware Normalization Tests
@@ -212,7 +195,6 @@ def test_regime_specific_scaling(sample_data, preprocessor):
     # Scalers should be different for different regimes
     assert 'normal' in preprocessor.scalers
     assert 'startup' in preprocessor.scalers
-
 
 # ========================================
 # Edge Cases and Error Handling
@@ -239,7 +221,6 @@ def test_handles_single_sample(preprocessor):
     assert result.shape[0] == 1
     assert not np.isnan(result).any()
 
-
 def test_handles_unseen_regime(sample_data, preprocessor):
     """Test handling of operational state not seen during training"""
     # Fit without 'maintenance' state
@@ -260,7 +241,6 @@ def test_handles_unseen_regime(sample_data, preprocessor):
     except (KeyError, ValueError) as e:
         # Expected behavior - informative error
         assert 'maintenance' in str(e).lower() or 'unseen' in str(e).lower()
-
 
 def test_handles_missing_values(preprocessor):
     """Test handling of missing sensor values"""
@@ -283,7 +263,6 @@ def test_handles_missing_values(preprocessor):
     except (ValueError, TypeError):
         pass  # Expected if implementation doesn't handle NaNs
 
-
 def test_handles_constant_features():
     """Test handling of constant (zero variance) features"""
     constant_data = pd.DataFrame({
@@ -304,7 +283,6 @@ def test_handles_constant_features():
 
     assert not np.isnan(result).any()
 
-
 # ========================================
 # Performance Tests
 # ========================================
@@ -321,7 +299,6 @@ def test_transform_speed(sample_data, preprocessor):
 
     # Should complete in < 1 second for 1000 samples
     assert elapsed < 1.0, f"Transform took {elapsed:.2f}s, expected < 1.0s"
-
 
 # ========================================
 # Integration Tests
@@ -347,7 +324,6 @@ def test_full_pipeline_workflow(sample_data, preprocessor):
     assert X_train.shape[1] == X_test.shape[1]  # Same number of features
     assert not np.isnan(X_train).any()
     assert not np.isnan(X_test).any()
-
 
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])

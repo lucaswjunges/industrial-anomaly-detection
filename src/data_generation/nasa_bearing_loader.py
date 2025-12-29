@@ -15,8 +15,6 @@ Dataset Details:
 - Multiple test runs with different failure modes
 - Real degradation patterns over time
 
-Author: Lucas William Junges
-Date: December 2024
 """
 
 import numpy as np
@@ -26,7 +24,6 @@ from typing import Tuple, Dict, List
 import warnings
 from scipy import signal
 from scipy.stats import kurtosis, skew
-
 
 class NASABearingLoader:
     """
@@ -356,7 +353,6 @@ class NASABearingLoader:
 
         return train_df, test_df
 
-
 def main():
     """
     Example usage: Load NASA bearing data and prepare for training.
@@ -395,7 +391,6 @@ def main():
     print("   - data/processed/nasa_train_data.csv")
     print("   - data/processed/nasa_test_data.csv")
     print("\n🚀 Next step: Run train_simple.py to train models on REAL data")
-
 
 if __name__ == '__main__':
     main()

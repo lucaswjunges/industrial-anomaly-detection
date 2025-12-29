@@ -12,10 +12,8 @@ Key differences from synthetic training:
 - More challenging detection (realistic F1-scores: 80-85% vs 98%+)
 - Demonstrates experience with real-world data complexity
 
-This addresses the #1 red flag for European recruiters: "Dados sintéticos = sem experiência real"
+This addresses the 
 
-Author: Lucas William Junges
-Date: December 2024
 """
 
 import sys
@@ -33,7 +31,6 @@ import joblib
 from data_generation.nasa_bearing_loader import NASABearingLoader
 from preprocessing.preprocessor import IoTPreprocessor
 from models.anomaly_detectors import IsolationForestDetector, LOFDetector, AutoencoderDetector
-
 
 def main():
     print("=" * 80)
@@ -202,7 +199,6 @@ def main():
     print("   2. Update README.md to mention NASA dataset")
     print("   3. Add to CV: 'Anomaly detection on NASA bearing dataset'")
     print("\n" + "=" * 80)
-
 
 if __name__ == '__main__':
     main()

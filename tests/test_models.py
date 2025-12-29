@@ -10,8 +10,6 @@ Tests cover:
 - Save/load functionality
 - Edge cases and error handling
 
-Author: Lucas William Junges
-Date: December 2024
 """
 
 import pytest
@@ -26,7 +24,6 @@ src_dir = Path(__file__).parent.parent / 'src'
 sys.path.insert(0, str(src_dir))
 
 from models.anomaly_detectors import IsolationForestDetector, LOFDetector, AutoencoderDetector
-
 
 # ========================================
 # Fixtures
@@ -43,7 +40,6 @@ def sample_training_data():
     X = np.random.randn(n_samples, n_features)
 
     return X
-
 
 @pytest.fixture
 def sample_test_data():
@@ -64,7 +60,6 @@ def sample_test_data():
 
     return X, y
 
-
 @pytest.fixture
 def temp_model_dir():
     """Create temporary directory for model saving"""
@@ -72,7 +67,6 @@ def temp_model_dir():
     yield Path(temp_dir)
     # Cleanup
     shutil.rmtree(temp_dir)
-
 
 # ========================================
 # Isolation Forest Tests
@@ -178,7 +172,6 @@ class TestIsolationForest:
 
         np.testing.assert_array_equal(pred1, pred2)
 
-
 # ========================================
 # Local Outlier Factor Tests
 # ========================================
@@ -267,7 +260,6 @@ class TestLOF:
         loaded_pred = loaded_model.predict(X_test)
 
         np.testing.assert_array_equal(original_pred, loaded_pred)
-
 
 # ========================================
 # Autoencoder Tests
@@ -362,7 +354,6 @@ class TestAutoencoder:
 
         np.testing.assert_array_equal(original_pred, loaded_pred)
 
-
 # ========================================
 # Cross-Model Comparison Tests
 # ========================================
@@ -394,7 +385,6 @@ def test_all_models_interface_consistency(sample_training_data, sample_test_data
         assert scores.shape == (len(X_test),)
         assert scores.dtype == np.float64
 
-
 # ========================================
 # Edge Cases
 # ========================================
@@ -419,7 +409,6 @@ def test_handles_single_sample(sample_training_data):
         assert prediction.shape == (1,)
         assert prediction[0] in {0, 1}
 
-
 def test_handles_different_feature_dimensions():
     """Test models with different input dimensions"""
     for n_features in [5, 10, 27, 50]:
@@ -430,7 +419,6 @@ def test_handles_different_feature_dimensions():
 
         predictions = model.predict(X[:10])
         assert predictions.shape == (10,)
-
 
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])

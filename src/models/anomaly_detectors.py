@@ -14,7 +14,6 @@ import pickle
 import json
 from typing import Tuple, Dict, Optional
 
-
 class IsolationForestDetector:
     """
     Isolation Forest for anomaly detection.
@@ -87,7 +86,6 @@ class IsolationForestDetector:
             self.model = pickle.load(f)
         print(f"Isolation Forest loaded from: {path}")
 
-
 class LOFDetector:
     """
     Local Outlier Factor for anomaly detection.
@@ -155,7 +153,6 @@ class LOFDetector:
         with open(path, 'rb') as f:
             self.model = pickle.load(f)
         print(f"LOF loaded from: {path}")
-
 
 class AutoencoderDetector:
     """
@@ -347,7 +344,6 @@ class AutoencoderDetector:
 
         print(f"Autoencoder loaded from: {path}")
 
-
 class EnsembleDetector:
     """
     Ensemble anomaly detector combining multiple methods.
@@ -423,7 +419,6 @@ class EnsembleDetector:
             name: detector.predict(X)
             for name, detector in self.detectors.items()
         }
-
 
 def main():
     """Train and evaluate all anomaly detection models."""
@@ -538,7 +533,6 @@ def main():
         print(f"  Recall: {recall:.3f}")
         print(f"  F1-Score: {f1:.3f}")
         print(f"  Anomalies detected: {predictions.sum()}")
-
 
 if __name__ == '__main__':
     main()

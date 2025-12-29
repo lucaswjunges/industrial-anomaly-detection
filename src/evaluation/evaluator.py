@@ -18,7 +18,6 @@ import json
 from typing import Dict, List, Tuple
 from datetime import timedelta
 
-
 class AnomalyEvaluator:
     """
     Comprehensive evaluation for anomaly detection systems.
@@ -344,7 +343,6 @@ class AnomalyEvaluator:
             json.dump(self.results, f, indent=2)
         print(f"Evaluation results saved to: {path}")
 
-
 def generate_evaluation_report(
     evaluator: AnomalyEvaluator,
     output_path: str
@@ -398,7 +396,6 @@ def generate_evaluation_report(
         f.write('\n'.join(report))
 
     print(f"Evaluation report saved to: {output_path}")
-
 
 def main():
     """Run comprehensive evaluation."""
@@ -516,7 +513,6 @@ def main():
     print("\n" + "="*60)
     print("EVALUATION COMPLETE")
     print("="*60)
-
 
 if __name__ == '__main__':
     main()

@@ -11,11 +11,9 @@ from sklearn.metrics import confusion_matrix, roc_curve, precision_recall_curve
 from typing import List, Dict
 import json
 
-
 sns.set_style("whitegrid")
 plt.rcParams['figure.figsize'] = (12, 6)
 plt.rcParams['font.size'] = 10
-
 
 def plot_sensor_profiles(
     df: pd.DataFrame,
@@ -57,7 +55,6 @@ def plot_sensor_profiles(
         print(f"Sensor profiles saved to: {save_path}")
 
     plt.show()
-
 
 def plot_time_series_with_anomalies(
     df: pd.DataFrame,
@@ -110,7 +107,6 @@ def plot_time_series_with_anomalies(
 
     plt.show()
 
-
 def plot_confusion_matrices(
     results: Dict[str, Dict],
     save_path: str = None
@@ -155,7 +151,6 @@ def plot_confusion_matrices(
 
     plt.show()
 
-
 def plot_roc_curves(
     results: Dict[str, Dict],
     save_path: str = None
@@ -194,7 +189,6 @@ def plot_roc_curves(
 
     plt.show()
 
-
 def plot_precision_recall_curves(
     results: Dict[str, Dict],
     save_path: str = None
@@ -229,7 +223,6 @@ def plot_precision_recall_curves(
         print(f"PR curves saved to: {save_path}")
 
     plt.show()
-
 
 def plot_model_comparison_bar(
     results: Dict[str, Dict],
@@ -277,7 +270,6 @@ def plot_model_comparison_bar(
         print(f"Comparison bar chart saved to: {save_path}")
 
     plt.show()
-
 
 def generate_all_figures(
     df: pd.DataFrame,
@@ -345,7 +337,6 @@ def generate_all_figures(
     )
 
     print(f"\n✓ All figures generated in: {output_dir}/")
-
 
 if __name__ == '__main__':
     # Example usage

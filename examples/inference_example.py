@@ -6,8 +6,6 @@ Example: Real-time Anomaly Detection Inference
 This script demonstrates how to use the trained models for real-time inference
 on new sensor data. Perfect for showing in interviews!
 
-Author: Lucas William Junges
-Date: December 2024
 """
 
 import sys
@@ -22,7 +20,6 @@ sys.path.insert(0, str(src_dir))
 
 from preprocessing.preprocessor import IoTPreprocessor
 from models.anomaly_detectors import IsolationForestDetector, LOFDetector, AutoencoderDetector
-
 
 def load_trained_models():
     """Load trained models and preprocessor"""
@@ -46,7 +43,6 @@ def load_trained_models():
         print("✅ Synthetic models loaded!")
 
     return preprocessor, {'iforest': iforest, 'lof': lof, 'autoencoder': autoencoder}
-
 
 def predict_single_sample(preprocessor, models, sensor_data):
     """
@@ -87,7 +83,6 @@ def predict_single_sample(preprocessor, models, sensor_data):
     }
 
     return results
-
 
 def main():
     """Example inference workflow"""
@@ -226,7 +221,6 @@ def main():
     print("   • Batch processing: evaluate_nasa.py")
     print("   • Model comparison: IMPROVEMENTS_SUMMARY.md")
     print()
-
 
 if __name__ == '__main__':
     main()
