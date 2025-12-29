@@ -1,0 +1,6418 @@
+{
+  "generation_date": "2025-12-29T10:06:34.126686",
+  "duration_days": 30,
+  "sampling_rate_sec": 60,
+  "n_samples": 43200,
+  "anomaly_rate": 0.02,
+  "n_anomalies": 864,
+  "operational_events": [
+    {
+      "timestamp": "2024-01-01 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-02 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-03 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-04 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-05 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-06 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-07 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-10 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-11 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-12 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-13 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-14 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-15 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-16 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-17 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-18 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-19 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-20 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-21 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-22 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-23 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-24 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-25 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-26 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-27 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-28 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-29 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-30 00:00:00",
+      "type": "startup",
+      "duration_min": 30
+    },
+    {
+      "timestamp": "2024-01-01 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-02 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-03 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-04 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-05 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-06 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-07 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-08 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-09 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-10 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-11 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-12 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-13 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-14 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-15 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-16 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-17 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-18 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-19 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-20 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-21 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-22 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-23 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-24 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-25 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-26 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-27 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-28 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-29 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-30 07:00:00",
+      "type": "high_load",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-07 02:00:00",
+      "type": "maintenance",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-14 02:00:00",
+      "type": "maintenance",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-21 02:00:00",
+      "type": "maintenance",
+      "duration_min": 120
+    },
+    {
+      "timestamp": "2024-01-28 02:00:00",
+      "type": "maintenance",
+      "duration_min": 120
+    }
+  ],
+  "anomaly_events": [
+    {
+      "timestamp": "2024-01-25 09:04:00",
+      "type": "seal_leak",
+      "duration_min": 179,
+      "start_idx": 35104,
+      "end_idx": 35283
+    },
+    {
+      "timestamp": "2024-01-21 11:57:00",
+      "type": "seal_leak",
+      "duration_min": 162,
+      "start_idx": 29517,
+      "end_idx": 29679
+    },
+    {
+      "timestamp": "2024-01-08 04:26:00",
+      "type": "partial_blockage",
+      "duration_min": 84,
+      "start_idx": 10346,
+      "end_idx": 10430
+    },
+    {
+      "timestamp": "2024-01-19 12:56:00",
+      "type": "bearing_wear",
+      "duration_min": 198,
+      "start_idx": 26696,
+      "end_idx": 26894
+    },
+    {
+      "timestamp": "2024-01-09 03:28:00",
+      "type": "partial_blockage",
+      "duration_min": 147,
+      "start_idx": 11728,
+      "end_idx": 11875
+    },
+    {
+      "timestamp": "2024-01-25 21:52:00",
+      "type": "partial_blockage",
+      "duration_min": 80,
+      "start_idx": 35872,
+      "end_idx": 35952
+    },
+    {
+      "timestamp": "2024-01-25 08:53:00",
+      "type": "electrical_fault",
+      "duration_min": 212,
+      "start_idx": 35093,
+      "end_idx": 35305
+    },
+    {
+      "timestamp": "2024-01-16 22:54:00",
+      "type": "partial_blockage",
+      "duration_min": 82,
+      "start_idx": 22974,
+      "end_idx": 23056
+    },
+    {
+      "timestamp": "2024-01-12 16:43:00",
+      "type": "seal_leak",
+      "duration_min": 70,
+      "start_idx": 16843,
+      "end_idx": 16913
+    },
+    {
+      "timestamp": "2024-01-07 01:18:00",
+      "type": "cavitation",
+      "duration_min": 216,
+      "start_idx": 8718,
+      "end_idx": 8934
+    },
+    {
+      "timestamp": "2024-01-24 01:14:00",
+      "type": "cavitation",
+      "duration_min": 36,
+      "start_idx": 33194,
+      "end_idx": 33230
+    },
+    {
+      "timestamp": "2024-01-14 04:17:00",
+      "type": "bearing_wear",
+      "duration_min": 77,
+      "start_idx": 18977,
+      "end_idx": 19054
+    },
+    {
+      "timestamp": "2024-01-17 10:06:00",
+      "type": "bearing_wear",
+      "duration_min": 30,
+      "start_idx": 23646,
+      "end_idx": 23676
+    },
+    {
+      "timestamp": "2024-01-25 06:09:00",
+      "type": "electrical_fault",
+      "duration_min": 129,
+      "start_idx": 34929,
+      "end_idx": 35058
+    },
+    {
+      "timestamp": "2024-01-19 04:54:00",
+      "type": "partial_blockage",
+      "duration_min": 92,
+      "start_idx": 26214,
+      "end_idx": 26306
+    },
+    {
+      "timestamp": "2024-01-13 18:47:00",
+      "type": "cavitation",
+      "duration_min": 235,
+      "start_idx": 18407,
+      "end_idx": 18642
+    },
+    {
+      "timestamp": "2024-01-05 15:35:00",
+      "type": "partial_blockage",
+      "duration_min": 54,
+      "start_idx": 6695,
+      "end_idx": 6749
+    },
+    {
+      "timestamp": "2024-01-13 07:20:00",
+      "type": "electrical_fault",
+      "duration_min": 131,
+      "start_idx": 17720,
+      "end_idx": 17851
+    },
+    {
+      "timestamp": "2024-01-12 21:26:00",
+      "type": "partial_blockage",
+      "duration_min": 180,
+      "start_idx": 17126,
+      "end_idx": 17306
+    },
+    {
+      "timestamp": "2024-01-14 04:58:00",
+      "type": "seal_leak",
+      "duration_min": 234,
+      "start_idx": 19018,
+      "end_idx": 19252
+    },
+    {
+      "timestamp": "2024-01-09 04:27:00",
+      "type": "bearing_wear",
+      "duration_min": 135,
+      "start_idx": 11787,
+      "end_idx": 11922
+    },
+    {
+      "timestamp": "2024-01-21 06:55:00",
+      "type": "seal_leak",
+      "duration_min": 175,
+      "start_idx": 29215,
+      "end_idx": 29390
+    },
+    {
+      "timestamp": "2024-01-16 12:25:00",
+      "type": "cavitation",
+      "duration_min": 93,
+      "start_idx": 22345,
+      "end_idx": 22438
+    },
+    {
+      "timestamp": "2024-01-06 18:32:00",
+      "type": "partial_blockage",
+      "duration_min": 120,
+      "start_idx": 8312,
+      "end_idx": 8432
+    },
+    {
+      "timestamp": "2024-01-06 03:48:00",
+      "type": "electrical_fault",
+      "duration_min": 204,
+      "start_idx": 7428,
+      "end_idx": 7632
+    },
+    {
+      "timestamp": "2024-01-24 19:03:00",
+      "type": "seal_leak",
+      "duration_min": 127,
+      "start_idx": 34263,
+      "end_idx": 34390
+    },
+    {
+      "timestamp": "2024-01-19 05:37:00",
+      "type": "bearing_wear",
+      "duration_min": 65,
+      "start_idx": 26257,
+      "end_idx": 26322
+    },
+    {
+      "timestamp": "2024-01-12 21:04:00",
+      "type": "partial_blockage",
+      "duration_min": 92,
+      "start_idx": 17104,
+      "end_idx": 17196
+    },
+    {
+      "timestamp": "2024-01-24 13:57:00",
+      "type": "partial_blockage",
+      "duration_min": 141,
+      "start_idx": 33957,
+      "end_idx": 34098
+    },
+    {
+      "timestamp": "2024-01-07 01:52:00",
+      "type": "electrical_fault",
+      "duration_min": 59,
+      "start_idx": 8752,
+      "end_idx": 8811
+    },
+    {
+      "timestamp": "2024-01-27 14:48:00",
+      "type": "cavitation",
+      "duration_min": 144,
+      "start_idx": 38328,
+      "end_idx": 38472
+    },
+    {
+      "timestamp": "2024-01-22 01:14:00",
+      "type": "cavitation",
+      "duration_min": 84,
+      "start_idx": 30314,
+      "end_idx": 30398
+    },
+    {
+      "timestamp": "2024-01-22 20:35:00",
+      "type": "partial_blockage",
+      "duration_min": 53,
+      "start_idx": 31475,
+      "end_idx": 31528
+    },
+    {
+      "timestamp": "2024-01-18 08:47:00",
+      "type": "seal_leak",
+      "duration_min": 65,
+      "start_idx": 25007,
+      "end_idx": 25072
+    },
+    {
+      "timestamp": "2024-01-24 10:05:00",
+      "type": "electrical_fault",
+      "duration_min": 160,
+      "start_idx": 33725,
+      "end_idx": 33885
+    },
+    {
+      "timestamp": "2024-01-15 03:22:00",
+      "type": "cavitation",
+      "duration_min": 222,
+      "start_idx": 20362,
+      "end_idx": 20584
+    },
+    {
+      "timestamp": "2024-01-06 22:02:00",
+      "type": "partial_blockage",
+      "duration_min": 52,
+      "start_idx": 8522,
+      "end_idx": 8574
+    },
+    {
+      "timestamp": "2024-01-11 17:40:00",
+      "type": "partial_blockage",
+      "duration_min": 168,
+      "start_idx": 15460,
+      "end_idx": 15628
+    },
+    {
+      "timestamp": "2024-01-23 20:57:00",
+      "type": "electrical_fault",
+      "duration_min": 86,
+      "start_idx": 32937,
+      "end_idx": 33023
+    },
+    {
+      "timestamp": "2024-01-19 01:03:00",
+      "type": "seal_leak",
+      "duration_min": 226,
+      "start_idx": 25983,
+      "end_idx": 26209
+    },
+    {
+      "timestamp": "2024-01-10 21:32:00",
+      "type": "partial_blockage",
+      "duration_min": 200,
+      "start_idx": 14252,
+      "end_idx": 14452
+    },
+    {
+      "timestamp": "2024-01-17 11:10:00",
+      "type": "bearing_wear",
+      "duration_min": 229,
+      "start_idx": 23710,
+      "end_idx": 23939
+    },
+    {
+      "timestamp": "2024-01-13 12:57:00",
+      "type": "partial_blockage",
+      "duration_min": 57,
+      "start_idx": 18057,
+      "end_idx": 18114
+    },
+    {
+      "timestamp": "2024-01-09 18:48:00",
+      "type": "cavitation",
+      "duration_min": 63,
+      "start_idx": 12648,
+      "end_idx": 12711
+    },
+    {
+      "timestamp": "2024-01-14 09:14:00",
+      "type": "cavitation",
+      "duration_min": 118,
+      "start_idx": 19274,
+      "end_idx": 19392
+    },
+    {
+      "timestamp": "2024-01-19 08:10:00",
+      "type": "electrical_fault",
+      "duration_min": 56,
+      "start_idx": 26410,
+      "end_idx": 26466
+    },
+    {
+      "timestamp": "2024-01-16 13:31:00",
+      "type": "seal_leak",
+      "duration_min": 216,
+      "start_idx": 22411,
+      "end_idx": 22627
+    },
+    {
+      "timestamp": "2024-01-20 05:49:00",
+      "type": "seal_leak",
+      "duration_min": 194,
+      "start_idx": 27709,
+      "end_idx": 27903
+    },
+    {
+      "timestamp": "2024-01-18 14:54:00",
+      "type": "cavitation",
+      "duration_min": 143,
+      "start_idx": 25374,
+      "end_idx": 25517
+    },
+    {
+      "timestamp": "2024-01-27 09:55:00",
+      "type": "electrical_fault",
+      "duration_min": 59,
+      "start_idx": 38035,
+      "end_idx": 38094
+    },
+    {
+      "timestamp": "2024-01-22 19:02:00",
+      "type": "seal_leak",
+      "duration_min": 231,
+      "start_idx": 31382,
+      "end_idx": 31613
+    },
+    {
+      "timestamp": "2024-01-11 18:58:00",
+      "type": "partial_blockage",
+      "duration_min": 107,
+      "start_idx": 15538,
+      "end_idx": 15645
+    },
+    {
+      "timestamp": "2024-01-22 20:01:00",
+      "type": "bearing_wear",
+      "duration_min": 67,
+      "start_idx": 31441,
+      "end_idx": 31508
+    },
+    {
+      "timestamp": "2024-01-14 09:42:00",
+      "type": "cavitation",
+      "duration_min": 135,
+      "start_idx": 19302,
+      "end_idx": 19437
+    },
+    {
+      "timestamp": "2024-01-26 08:12:00",
+      "type": "partial_blockage",
+      "duration_min": 54,
+      "start_idx": 36492,
+      "end_idx": 36546
+    },
+    {
+      "timestamp": "2024-01-16 01:03:00",
+      "type": "bearing_wear",
+      "duration_min": 117,
+      "start_idx": 21663,
+      "end_idx": 21780
+    },
+    {
+      "timestamp": "2024-01-27 10:52:00",
+      "type": "electrical_fault",
+      "duration_min": 126,
+      "start_idx": 38092,
+      "end_idx": 38218
+    },
+    {
+      "timestamp": "2024-01-05 01:47:00",
+      "type": "partial_blockage",
+      "duration_min": 135,
+      "start_idx": 5867,
+      "end_idx": 6002
+    },
+    {
+      "timestamp": "2024-01-04 12:34:00",
+      "type": "partial_blockage",
+      "duration_min": 76,
+      "start_idx": 5074,
+      "end_idx": 5150
+    },
+    {
+      "timestamp": "2024-01-12 14:12:00",
+      "type": "electrical_fault",
+      "duration_min": 54,
+      "start_idx": 16692,
+      "end_idx": 16746
+    },
+    {
+      "timestamp": "2024-01-26 02:37:00",
+      "type": "partial_blockage",
+      "duration_min": 234,
+      "start_idx": 36157,
+      "end_idx": 36391
+    },
+    {
+      "timestamp": "2024-01-11 03:17:00",
+      "type": "seal_leak",
+      "duration_min": 121,
+      "start_idx": 14597,
+      "end_idx": 14718
+    },
+    {
+      "timestamp": "2024-01-22 21:50:00",
+      "type": "seal_leak",
+      "duration_min": 136,
+      "start_idx": 31550,
+      "end_idx": 31686
+    },
+    {
+      "timestamp": "2024-01-20 03:45:00",
+      "type": "bearing_wear",
+      "duration_min": 104,
+      "start_idx": 27585,
+      "end_idx": 27689
+    },
+    {
+      "timestamp": "2024-01-22 07:24:00",
+      "type": "partial_blockage",
+      "duration_min": 100,
+      "start_idx": 30684,
+      "end_idx": 30784
+    },
+    {
+      "timestamp": "2024-01-20 17:13:00",
+      "type": "partial_blockage",
+      "duration_min": 31,
+      "start_idx": 28393,
+      "end_idx": 28424
+    },
+    {
+      "timestamp": "2024-01-06 06:57:00",
+      "type": "electrical_fault",
+      "duration_min": 172,
+      "start_idx": 7617,
+      "end_idx": 7789
+    },
+    {
+      "timestamp": "2024-01-05 21:53:00",
+      "type": "bearing_wear",
+      "duration_min": 98,
+      "start_idx": 7073,
+      "end_idx": 7171
+    },
+    {
+      "timestamp": "2024-01-20 22:36:00",
+      "type": "cavitation",
+      "duration_min": 144,
+      "start_idx": 28716,
+      "end_idx": 28860
+    },
+    {
+      "timestamp": "2024-01-08 15:05:00",
+      "type": "partial_blockage",
+      "duration_min": 204,
+      "start_idx": 10985,
+      "end_idx": 11189
+    },
+    {
+      "timestamp": "2024-01-05 15:17:00",
+      "type": "bearing_wear",
+      "duration_min": 180,
+      "start_idx": 6677,
+      "end_idx": 6857
+    },
+    {
+      "timestamp": "2024-01-12 13:24:00",
+      "type": "partial_blockage",
+      "duration_min": 75,
+      "start_idx": 16644,
+      "end_idx": 16719
+    },
+    {
+      "timestamp": "2024-01-14 23:45:00",
+      "type": "partial_blockage",
+      "duration_min": 40,
+      "start_idx": 20145,
+      "end_idx": 20185
+    },
+    {
+      "timestamp": "2024-01-25 22:55:00",
+      "type": "bearing_wear",
+      "duration_min": 40,
+      "start_idx": 35935,
+      "end_idx": 35975
+    },
+    {
+      "timestamp": "2024-01-04 17:38:00",
+      "type": "bearing_wear",
+      "duration_min": 109,
+      "start_idx": 5378,
+      "end_idx": 5487
+    },
+    {
+      "timestamp": "2024-01-10 06:17:00",
+      "type": "bearing_wear",
+      "duration_min": 239,
+      "start_idx": 13337,
+      "end_idx": 13576
+    },
+    {
+      "timestamp": "2024-01-13 04:26:00",
+      "type": "partial_blockage",
+      "duration_min": 49,
+      "start_idx": 17546,
+      "end_idx": 17595
+    },
+    {
+      "timestamp": "2024-01-27 20:38:00",
+      "type": "seal_leak",
+      "duration_min": 198,
+      "start_idx": 38678,
+      "end_idx": 38876
+    },
+    {
+      "timestamp": "2024-01-23 22:26:00",
+      "type": "electrical_fault",
+      "duration_min": 186,
+      "start_idx": 33026,
+      "end_idx": 33212
+    },
+    {
+      "timestamp": "2024-01-19 08:32:00",
+      "type": "cavitation",
+      "duration_min": 66,
+      "start_idx": 26432,
+      "end_idx": 26498
+    },
+    {
+      "timestamp": "2024-01-21 01:45:00",
+      "type": "cavitation",
+      "duration_min": 50,
+      "start_idx": 28905,
+      "end_idx": 28955
+    },
+    {
+      "timestamp": "2024-01-26 06:36:00",
+      "type": "electrical_fault",
+      "duration_min": 71,
+      "start_idx": 36396,
+      "end_idx": 36467
+    },
+    {
+      "timestamp": "2024-01-10 07:36:00",
+      "type": "seal_leak",
+      "duration_min": 112,
+      "start_idx": 13416,
+      "end_idx": 13528
+    },
+    {
+      "timestamp": "2024-01-05 22:16:00",
+      "type": "seal_leak",
+      "duration_min": 60,
+      "start_idx": 7096,
+      "end_idx": 7156
+    },
+    {
+      "timestamp": "2024-01-08 17:14:00",
+      "type": "cavitation",
+      "duration_min": 190,
+      "start_idx": 11114,
+      "end_idx": 11304
+    },
+    {
+      "timestamp": "2024-01-13 08:46:00",
+      "type": "bearing_wear",
+      "duration_min": 134,
+      "start_idx": 17806,
+      "end_idx": 17940
+    },
+    {
+      "timestamp": "2024-01-11 15:45:00",
+      "type": "bearing_wear",
+      "duration_min": 142,
+      "start_idx": 15345,
+      "end_idx": 15487
+    },
+    {
+      "timestamp": "2024-01-09 20:51:00",
+      "type": "bearing_wear",
+      "duration_min": 118,
+      "start_idx": 12771,
+      "end_idx": 12889
+    },
+    {
+      "timestamp": "2024-01-14 22:47:00",
+      "type": "cavitation",
+      "duration_min": 85,
+      "start_idx": 20087,
+      "end_idx": 20172
+    },
+    {
+      "timestamp": "2024-01-27 07:45:00",
+      "type": "electrical_fault",
+      "duration_min": 233,
+      "start_idx": 37905,
+      "end_idx": 38138
+    },
+    {
+      "timestamp": "2024-01-17 01:12:00",
+      "type": "seal_leak",
+      "duration_min": 220,
+      "start_idx": 23112,
+      "end_idx": 23332
+    },
+    {
+      "timestamp": "2024-01-21 00:46:00",
+      "type": "partial_blockage",
+      "duration_min": 64,
+      "start_idx": 28846,
+      "end_idx": 28910
+    },
+    {
+      "timestamp": "2024-01-23 08:50:00",
+      "type": "partial_blockage",
+      "duration_min": 186,
+      "start_idx": 32210,
+      "end_idx": 32396
+    },
+    {
+      "timestamp": "2024-01-15 17:50:00",
+      "type": "partial_blockage",
+      "duration_min": 63,
+      "start_idx": 21230,
+      "end_idx": 21293
+    },
+    {
+      "timestamp": "2024-01-21 19:39:00",
+      "type": "bearing_wear",
+      "duration_min": 136,
+      "start_idx": 29979,
+      "end_idx": 30115
+    },
+    {
+      "timestamp": "2024-01-11 21:50:00",
+      "type": "seal_leak",
+      "duration_min": 149,
+      "start_idx": 15710,
+      "end_idx": 15859
+    },
+    {
+      "timestamp": "2024-01-16 01:48:00",
+      "type": "bearing_wear",
+      "duration_min": 80,
+      "start_idx": 21708,
+      "end_idx": 21788
+    },
+    {
+      "timestamp": "2024-01-20 16:49:00",
+      "type": "seal_leak",
+      "duration_min": 88,
+      "start_idx": 28369,
+      "end_idx": 28457
+    },
+    {
+      "timestamp": "2024-01-07 20:39:00",
+      "type": "electrical_fault",
+      "duration_min": 155,
+      "start_idx": 9879,
+      "end_idx": 10034
+    },
+    {
+      "timestamp": "2024-01-06 21:55:00",
+      "type": "partial_blockage",
+      "duration_min": 135,
+      "start_idx": 8515,
+      "end_idx": 8650
+    },
+    {
+      "timestamp": "2024-01-04 16:35:00",
+      "type": "partial_blockage",
+      "duration_min": 150,
+      "start_idx": 5315,
+      "end_idx": 5465
+    },
+    {
+      "timestamp": "2024-01-21 04:50:00",
+      "type": "cavitation",
+      "duration_min": 219,
+      "start_idx": 29090,
+      "end_idx": 29309
+    },
+    {
+      "timestamp": "2024-01-09 04:59:00",
+      "type": "cavitation",
+      "duration_min": 145,
+      "start_idx": 11819,
+      "end_idx": 11964
+    },
+    {
+      "timestamp": "2024-01-05 09:56:00",
+      "type": "partial_blockage",
+      "duration_min": 185,
+      "start_idx": 6356,
+      "end_idx": 6541
+    },
+    {
+      "timestamp": "2024-01-18 02:51:00",
+      "type": "seal_leak",
+      "duration_min": 70,
+      "start_idx": 24651,
+      "end_idx": 24721
+    },
+    {
+      "timestamp": "2024-01-14 02:54:00",
+      "type": "electrical_fault",
+      "duration_min": 174,
+      "start_idx": 18894,
+      "end_idx": 19068
+    },
+    {
+      "timestamp": "2024-01-23 18:20:00",
+      "type": "seal_leak",
+      "duration_min": 79,
+      "start_idx": 32780,
+      "end_idx": 32859
+    },
+    {
+      "timestamp": "2024-01-05 09:29:00",
+      "type": "seal_leak",
+      "duration_min": 179,
+      "start_idx": 6329,
+      "end_idx": 6508
+    },
+    {
+      "timestamp": "2024-01-05 16:34:00",
+      "type": "partial_blockage",
+      "duration_min": 32,
+      "start_idx": 6754,
+      "end_idx": 6786
+    },
+    {
+      "timestamp": "2024-01-09 13:44:00",
+      "type": "cavitation",
+      "duration_min": 225,
+      "start_idx": 12344,
+      "end_idx": 12569
+    },
+    {
+      "timestamp": "2024-01-15 21:01:00",
+      "type": "seal_leak",
+      "duration_min": 45,
+      "start_idx": 21421,
+      "end_idx": 21466
+    },
+    {
+      "timestamp": "2024-01-08 19:19:00",
+      "type": "bearing_wear",
+      "duration_min": 223,
+      "start_idx": 11239,
+      "end_idx": 11462
+    },
+    {
+      "timestamp": "2024-01-06 17:30:00",
+      "type": "cavitation",
+      "duration_min": 223,
+      "start_idx": 8250,
+      "end_idx": 8473
+    },
+    {
+      "timestamp": "2024-01-04 23:42:00",
+      "type": "electrical_fault",
+      "duration_min": 62,
+      "start_idx": 5742,
+      "end_idx": 5804
+    },
+    {
+      "timestamp": "2024-01-26 01:32:00",
+      "type": "seal_leak",
+      "duration_min": 180,
+      "start_idx": 36092,
+      "end_idx": 36272
+    },
+    {
+      "timestamp": "2024-01-05 11:15:00",
+      "type": "partial_blockage",
+      "duration_min": 225,
+      "start_idx": 6435,
+      "end_idx": 6660
+    },
+    {
+      "timestamp": "2024-01-11 22:10:00",
+      "type": "cavitation",
+      "duration_min": 223,
+      "start_idx": 15730,
+      "end_idx": 15953
+    },
+    {
+      "timestamp": "2024-01-10 14:31:00",
+      "type": "electrical_fault",
+      "duration_min": 65,
+      "start_idx": 13831,
+      "end_idx": 13896
+    },
+    {
+      "timestamp": "2024-01-12 05:11:00",
+      "type": "electrical_fault",
+      "duration_min": 107,
+      "start_idx": 16151,
+      "end_idx": 16258
+    },
+    {
+      "timestamp": "2024-01-17 06:01:00",
+      "type": "bearing_wear",
+      "duration_min": 109,
+      "start_idx": 23401,
+      "end_idx": 23510
+    },
+    {
+      "timestamp": "2024-01-27 15:40:00",
+      "type": "bearing_wear",
+      "duration_min": 238,
+      "start_idx": 38380,
+      "end_idx": 38618
+    },
+    {
+      "timestamp": "2024-01-20 06:15:00",
+      "type": "electrical_fault",
+      "duration_min": 73,
+      "start_idx": 27735,
+      "end_idx": 27808
+    },
+    {
+      "timestamp": "2024-01-09 01:27:00",
+      "type": "bearing_wear",
+      "duration_min": 194,
+      "start_idx": 11607,
+      "end_idx": 11801
+    },
+    {
+      "timestamp": "2024-01-14 04:39:00",
+      "type": "seal_leak",
+      "duration_min": 95,
+      "start_idx": 18999,
+      "end_idx": 19094
+    },
+    {
+      "timestamp": "2024-01-27 00:24:00",
+      "type": "seal_leak",
+      "duration_min": 58,
+      "start_idx": 37464,
+      "end_idx": 37522
+    },
+    {
+      "timestamp": "2024-01-07 18:08:00",
+      "type": "partial_blockage",
+      "duration_min": 54,
+      "start_idx": 9728,
+      "end_idx": 9782
+    },
+    {
+      "timestamp": "2024-01-15 16:33:00",
+      "type": "cavitation",
+      "duration_min": 152,
+      "start_idx": 21153,
+      "end_idx": 21305
+    },
+    {
+      "timestamp": "2024-01-14 23:17:00",
+      "type": "partial_blockage",
+      "duration_min": 124,
+      "start_idx": 20117,
+      "end_idx": 20241
+    },
+    {
+      "timestamp": "2024-01-18 18:42:00",
+      "type": "bearing_wear",
+      "duration_min": 180,
+      "start_idx": 25602,
+      "end_idx": 25782
+    },
+    {
+      "timestamp": "2024-01-22 11:42:00",
+      "type": "bearing_wear",
+      "duration_min": 234,
+      "start_idx": 30942,
+      "end_idx": 31176
+    },
+    {
+      "timestamp": "2024-01-23 10:00:00",
+      "type": "partial_blockage",
+      "duration_min": 90,
+      "start_idx": 32280,
+      "end_idx": 32370
+    },
+    {
+      "timestamp": "2024-01-19 02:51:00",
+      "type": "bearing_wear",
+      "duration_min": 144,
+      "start_idx": 26091,
+      "end_idx": 26235
+    },
+    {
+      "timestamp": "2024-01-15 20:06:00",
+      "type": "electrical_fault",
+      "duration_min": 39,
+      "start_idx": 21366,
+      "end_idx": 21405
+    },
+    {
+      "timestamp": "2024-01-18 19:43:00",
+      "type": "seal_leak",
+      "duration_min": 101,
+      "start_idx": 25663,
+      "end_idx": 25764
+    },
+    {
+      "timestamp": "2024-01-27 23:58:00",
+      "type": "electrical_fault",
+      "duration_min": 33,
+      "start_idx": 38878,
+      "end_idx": 38911
+    },
+    {
+      "timestamp": "2024-01-16 00:34:00",
+      "type": "partial_blockage",
+      "duration_min": 166,
+      "start_idx": 21634,
+      "end_idx": 21800
+    },
+    {
+      "timestamp": "2024-01-24 11:55:00",
+      "type": "partial_blockage",
+      "duration_min": 45,
+      "start_idx": 33835,
+      "end_idx": 33880
+    },
+    {
+      "timestamp": "2024-01-05 15:40:00",
+      "type": "bearing_wear",
+      "duration_min": 71,
+      "start_idx": 6700,
+      "end_idx": 6771
+    },
+    {
+      "timestamp": "2024-01-18 19:55:00",
+      "type": "cavitation",
+      "duration_min": 192,
+      "start_idx": 25675,
+      "end_idx": 25867
+    },
+    {
+      "timestamp": "2024-01-25 18:35:00",
+      "type": "cavitation",
+      "duration_min": 139,
+      "start_idx": 35675,
+      "end_idx": 35814
+    },
+    {
+      "timestamp": "2024-01-20 02:36:00",
+      "type": "seal_leak",
+      "duration_min": 203,
+      "start_idx": 27516,
+      "end_idx": 27719
+    },
+    {
+      "timestamp": "2024-01-08 09:07:00",
+      "type": "seal_leak",
+      "duration_min": 44,
+      "start_idx": 10627,
+      "end_idx": 10671
+    },
+    {
+      "timestamp": "2024-01-18 00:40:00",
+      "type": "cavitation",
+      "duration_min": 50,
+      "start_idx": 24520,
+      "end_idx": 24570
+    },
+    {
+      "timestamp": "2024-01-23 00:59:00",
+      "type": "seal_leak",
+      "duration_min": 61,
+      "start_idx": 31739,
+      "end_idx": 31800
+    },
+    {
+      "timestamp": "2024-01-12 03:12:00",
+      "type": "seal_leak",
+      "duration_min": 232,
+      "start_idx": 16032,
+      "end_idx": 16264
+    },
+    {
+      "timestamp": "2024-01-05 20:01:00",
+      "type": "electrical_fault",
+      "duration_min": 197,
+      "start_idx": 6961,
+      "end_idx": 7158
+    },
+    {
+      "timestamp": "2024-01-24 14:19:00",
+      "type": "cavitation",
+      "duration_min": 51,
+      "start_idx": 33979,
+      "end_idx": 34030
+    },
+    {
+      "timestamp": "2024-01-04 17:02:00",
+      "type": "seal_leak",
+      "duration_min": 87,
+      "start_idx": 5342,
+      "end_idx": 5429
+    },
+    {
+      "timestamp": "2024-01-10 10:03:00",
+      "type": "partial_blockage",
+      "duration_min": 187,
+      "start_idx": 13563,
+      "end_idx": 13750
+    },
+    {
+      "timestamp": "2024-01-25 19:58:00",
+      "type": "electrical_fault",
+      "duration_min": 150,
+      "start_idx": 35758,
+      "end_idx": 35908
+    },
+    {
+      "timestamp": "2024-01-15 05:00:00",
+      "type": "bearing_wear",
+      "duration_min": 232,
+      "start_idx": 20460,
+      "end_idx": 20692
+    },
+    {
+      "timestamp": "2024-01-21 11:07:00",
+      "type": "seal_leak",
+      "duration_min": 99,
+      "start_idx": 29467,
+      "end_idx": 29566
+    },
+    {
+      "timestamp": "2024-01-19 21:59:00",
+      "type": "bearing_wear",
+      "duration_min": 121,
+      "start_idx": 27239,
+      "end_idx": 27360
+    },
+    {
+      "timestamp": "2024-01-08 23:39:00",
+      "type": "bearing_wear",
+      "duration_min": 92,
+      "start_idx": 11499,
+      "end_idx": 11591
+    },
+    {
+      "timestamp": "2024-01-22 13:26:00",
+      "type": "bearing_wear",
+      "duration_min": 217,
+      "start_idx": 31046,
+      "end_idx": 31263
+    },
+    {
+      "timestamp": "2024-01-27 17:36:00",
+      "type": "seal_leak",
+      "duration_min": 32,
+      "start_idx": 38496,
+      "end_idx": 38528
+    },
+    {
+      "timestamp": "2024-01-26 21:21:00",
+      "type": "partial_blockage",
+      "duration_min": 40,
+      "start_idx": 37281,
+      "end_idx": 37321
+    },
+    {
+      "timestamp": "2024-01-10 15:07:00",
+      "type": "partial_blockage",
+      "duration_min": 72,
+      "start_idx": 13867,
+      "end_idx": 13939
+    },
+    {
+      "timestamp": "2024-01-20 19:25:00",
+      "type": "electrical_fault",
+      "duration_min": 100,
+      "start_idx": 28525,
+      "end_idx": 28625
+    },
+    {
+      "timestamp": "2024-01-10 13:06:00",
+      "type": "seal_leak",
+      "duration_min": 223,
+      "start_idx": 13746,
+      "end_idx": 13969
+    },
+    {
+      "timestamp": "2024-01-10 07:18:00",
+      "type": "electrical_fault",
+      "duration_min": 98,
+      "start_idx": 13398,
+      "end_idx": 13496
+    },
+    {
+      "timestamp": "2024-01-09 22:52:00",
+      "type": "partial_blockage",
+      "duration_min": 127,
+      "start_idx": 12892,
+      "end_idx": 13019
+    },
+    {
+      "timestamp": "2024-01-22 09:55:00",
+      "type": "cavitation",
+      "duration_min": 125,
+      "start_idx": 30835,
+      "end_idx": 30960
+    },
+    {
+      "timestamp": "2024-01-13 23:27:00",
+      "type": "partial_blockage",
+      "duration_min": 198,
+      "start_idx": 18687,
+      "end_idx": 18885
+    },
+    {
+      "timestamp": "2024-01-05 04:38:00",
+      "type": "electrical_fault",
+      "duration_min": 222,
+      "start_idx": 6038,
+      "end_idx": 6260
+    },
+    {
+      "timestamp": "2024-01-21 15:26:00",
+      "type": "electrical_fault",
+      "duration_min": 99,
+      "start_idx": 29726,
+      "end_idx": 29825
+    },
+    {
+      "timestamp": "2024-01-13 15:44:00",
+      "type": "electrical_fault",
+      "duration_min": 225,
+      "start_idx": 18224,
+      "end_idx": 18449
+    },
+    {
+      "timestamp": "2024-01-15 21:28:00",
+      "type": "partial_blockage",
+      "duration_min": 159,
+      "start_idx": 21448,
+      "end_idx": 21607
+    },
+    {
+      "timestamp": "2024-01-09 05:03:00",
+      "type": "cavitation",
+      "duration_min": 204,
+      "start_idx": 11823,
+      "end_idx": 12027
+    },
+    {
+      "timestamp": "2024-01-14 21:23:00",
+      "type": "partial_blockage",
+      "duration_min": 223,
+      "start_idx": 20003,
+      "end_idx": 20226
+    },
+    {
+      "timestamp": "2024-01-26 10:18:00",
+      "type": "partial_blockage",
+      "duration_min": 163,
+      "start_idx": 36618,
+      "end_idx": 36781
+    },
+    {
+      "timestamp": "2024-01-12 06:59:00",
+      "type": "electrical_fault",
+      "duration_min": 48,
+      "start_idx": 16259,
+      "end_idx": 16307
+    },
+    {
+      "timestamp": "2024-01-19 17:56:00",
+      "type": "bearing_wear",
+      "duration_min": 96,
+      "start_idx": 26996,
+      "end_idx": 27092
+    },
+    {
+      "timestamp": "2024-01-16 15:51:00",
+      "type": "cavitation",
+      "duration_min": 160,
+      "start_idx": 22551,
+      "end_idx": 22711
+    },
+    {
+      "timestamp": "2024-01-06 06:43:00",
+      "type": "partial_blockage",
+      "duration_min": 143,
+      "start_idx": 7603,
+      "end_idx": 7746
+    },
+    {
+      "timestamp": "2024-01-27 16:08:00",
+      "type": "partial_blockage",
+      "duration_min": 41,
+      "start_idx": 38408,
+      "end_idx": 38449
+    },
+    {
+      "timestamp": "2024-01-16 21:14:00",
+      "type": "electrical_fault",
+      "duration_min": 190,
+      "start_idx": 22874,
+      "end_idx": 23064
+    },
+    {
+      "timestamp": "2024-01-18 22:09:00",
+      "type": "bearing_wear",
+      "duration_min": 48,
+      "start_idx": 25809,
+      "end_idx": 25857
+    },
+    {
+      "timestamp": "2024-01-27 13:15:00",
+      "type": "seal_leak",
+      "duration_min": 37,
+      "start_idx": 38235,
+      "end_idx": 38272
+    },
+    {
+      "timestamp": "2024-01-14 17:15:00",
+      "type": "seal_leak",
+      "duration_min": 141,
+      "start_idx": 19755,
+      "end_idx": 19896
+    },
+    {
+      "timestamp": "2024-01-10 17:26:00",
+      "type": "partial_blockage",
+      "duration_min": 187,
+      "start_idx": 14006,
+      "end_idx": 14193
+    },
+    {
+      "timestamp": "2024-01-21 07:44:00",
+      "type": "partial_blockage",
+      "duration_min": 198,
+      "start_idx": 29264,
+      "end_idx": 29462
+    },
+    {
+      "timestamp": "2024-01-04 12:03:00",
+      "type": "cavitation",
+      "duration_min": 144,
+      "start_idx": 5043,
+      "end_idx": 5187
+    },
+    {
+      "timestamp": "2024-01-27 19:12:00",
+      "type": "partial_blockage",
+      "duration_min": 51,
+      "start_idx": 38592,
+      "end_idx": 38643
+    },
+    {
+      "timestamp": "2024-01-06 06:27:00",
+      "type": "seal_leak",
+      "duration_min": 229,
+      "start_idx": 7587,
+      "end_idx": 7816
+    },
+    {
+      "timestamp": "2024-01-07 18:31:00",
+      "type": "cavitation",
+      "duration_min": 46,
+      "start_idx": 9751,
+      "end_idx": 9797
+    },
+    {
+      "timestamp": "2024-01-26 17:03:00",
+      "type": "bearing_wear",
+      "duration_min": 113,
+      "start_idx": 37023,
+      "end_idx": 37136
+    },
+    {
+      "timestamp": "2024-01-18 08:19:00",
+      "type": "bearing_wear",
+      "duration_min": 148,
+      "start_idx": 24979,
+      "end_idx": 25127
+    },
+    {
+      "timestamp": "2024-01-08 09:59:00",
+      "type": "electrical_fault",
+      "duration_min": 233,
+      "start_idx": 10679,
+      "end_idx": 10912
+    },
+    {
+      "timestamp": "2024-01-18 06:19:00",
+      "type": "seal_leak",
+      "duration_min": 82,
+      "start_idx": 24859,
+      "end_idx": 24941
+    },
+    {
+      "timestamp": "2024-01-20 17:22:00",
+      "type": "partial_blockage",
+      "duration_min": 131,
+      "start_idx": 28402,
+      "end_idx": 28533
+    },
+    {
+      "timestamp": "2024-01-16 01:20:00",
+      "type": "partial_blockage",
+      "duration_min": 100,
+      "start_idx": 21680,
+      "end_idx": 21780
+    },
+    {
+      "timestamp": "2024-01-24 20:32:00",
+      "type": "electrical_fault",
+      "duration_min": 169,
+      "start_idx": 34352,
+      "end_idx": 34521
+    },
+    {
+      "timestamp": "2024-01-16 20:29:00",
+      "type": "electrical_fault",
+      "duration_min": 62,
+      "start_idx": 22829,
+      "end_idx": 22891
+    },
+    {
+      "timestamp": "2024-01-20 17:05:00",
+      "type": "cavitation",
+      "duration_min": 161,
+      "start_idx": 28385,
+      "end_idx": 28546
+    },
+    {
+      "timestamp": "2024-01-15 04:52:00",
+      "type": "partial_blockage",
+      "duration_min": 138,
+      "start_idx": 20452,
+      "end_idx": 20590
+    },
+    {
+      "timestamp": "2024-01-07 08:28:00",
+      "type": "seal_leak",
+      "duration_min": 108,
+      "start_idx": 9148,
+      "end_idx": 9256
+    },
+    {
+      "timestamp": "2024-01-24 12:53:00",
+      "type": "electrical_fault",
+      "duration_min": 45,
+      "start_idx": 33893,
+      "end_idx": 33938
+    },
+    {
+      "timestamp": "2024-01-26 20:09:00",
+      "type": "partial_blockage",
+      "duration_min": 206,
+      "start_idx": 37209,
+      "end_idx": 37415
+    },
+    {
+      "timestamp": "2024-01-09 00:02:00",
+      "type": "cavitation",
+      "duration_min": 169,
+      "start_idx": 11522,
+      "end_idx": 11691
+    },
+    {
+      "timestamp": "2024-01-15 14:09:00",
+      "type": "partial_blockage",
+      "duration_min": 110,
+      "start_idx": 21009,
+      "end_idx": 21119
+    },
+    {
+      "timestamp": "2024-01-27 16:22:00",
+      "type": "seal_leak",
+      "duration_min": 78,
+      "start_idx": 38422,
+      "end_idx": 38500
+    },
+    {
+      "timestamp": "2024-01-16 01:07:00",
+      "type": "seal_leak",
+      "duration_min": 79,
+      "start_idx": 21667,
+      "end_idx": 21746
+    },
+    {
+      "timestamp": "2024-01-26 19:04:00",
+      "type": "bearing_wear",
+      "duration_min": 126,
+      "start_idx": 37144,
+      "end_idx": 37270
+    },
+    {
+      "timestamp": "2024-01-24 11:44:00",
+      "type": "seal_leak",
+      "duration_min": 95,
+      "start_idx": 33824,
+      "end_idx": 33919
+    },
+    {
+      "timestamp": "2024-01-05 20:38:00",
+      "type": "cavitation",
+      "duration_min": 120,
+      "start_idx": 6998,
+      "end_idx": 7118
+    },
+    {
+      "timestamp": "2024-01-15 22:15:00",
+      "type": "electrical_fault",
+      "duration_min": 120,
+      "start_idx": 21495,
+      "end_idx": 21615
+    },
+    {
+      "timestamp": "2024-01-04 08:08:00",
+      "type": "cavitation",
+      "duration_min": 181,
+      "start_idx": 4808,
+      "end_idx": 4989
+    },
+    {
+      "timestamp": "2024-01-09 10:51:00",
+      "type": "bearing_wear",
+      "duration_min": 230,
+      "start_idx": 12171,
+      "end_idx": 12401
+    },
+    {
+      "timestamp": "2024-01-27 02:17:00",
+      "type": "cavitation",
+      "duration_min": 145,
+      "start_idx": 37577,
+      "end_idx": 37722
+    },
+    {
+      "timestamp": "2024-01-19 09:38:00",
+      "type": "electrical_fault",
+      "duration_min": 80,
+      "start_idx": 26498,
+      "end_idx": 26578
+    },
+    {
+      "timestamp": "2024-01-20 16:56:00",
+      "type": "bearing_wear",
+      "duration_min": 90,
+      "start_idx": 28376,
+      "end_idx": 28466
+    },
+    {
+      "timestamp": "2024-01-23 14:52:00",
+      "type": "seal_leak",
+      "duration_min": 228,
+      "start_idx": 32572,
+      "end_idx": 32800
+    },
+    {
+      "timestamp": "2024-01-22 04:23:00",
+      "type": "bearing_wear",
+      "duration_min": 94,
+      "start_idx": 30503,
+      "end_idx": 30597
+    },
+    {
+      "timestamp": "2024-01-22 17:20:00",
+      "type": "partial_blockage",
+      "duration_min": 52,
+      "start_idx": 31280,
+      "end_idx": 31332
+    },
+    {
+      "timestamp": "2024-01-07 17:44:00",
+      "type": "cavitation",
+      "duration_min": 189,
+      "start_idx": 9704,
+      "end_idx": 9893
+    },
+    {
+      "timestamp": "2024-01-23 21:37:00",
+      "type": "partial_blockage",
+      "duration_min": 95,
+      "start_idx": 32977,
+      "end_idx": 33072
+    },
+    {
+      "timestamp": "2024-01-19 08:34:00",
+      "type": "bearing_wear",
+      "duration_min": 87,
+      "start_idx": 26434,
+      "end_idx": 26521
+    },
+    {
+      "timestamp": "2024-01-18 10:57:00",
+      "type": "seal_leak",
+      "duration_min": 64,
+      "start_idx": 25137,
+      "end_idx": 25201
+    },
+    {
+      "timestamp": "2024-01-09 22:19:00",
+      "type": "seal_leak",
+      "duration_min": 157,
+      "start_idx": 12859,
+      "end_idx": 13016
+    },
+    {
+      "timestamp": "2024-01-10 09:44:00",
+      "type": "bearing_wear",
+      "duration_min": 188,
+      "start_idx": 13544,
+      "end_idx": 13732
+    },
+    {
+      "timestamp": "2024-01-13 11:51:00",
+      "type": "seal_leak",
+      "duration_min": 135,
+      "start_idx": 17991,
+      "end_idx": 18126
+    },
+    {
+      "timestamp": "2024-01-24 18:15:00",
+      "type": "bearing_wear",
+      "duration_min": 187,
+      "start_idx": 34215,
+      "end_idx": 34402
+    },
+    {
+      "timestamp": "2024-01-05 08:08:00",
+      "type": "electrical_fault",
+      "duration_min": 87,
+      "start_idx": 6248,
+      "end_idx": 6335
+    },
+    {
+      "timestamp": "2024-01-07 07:53:00",
+      "type": "cavitation",
+      "duration_min": 87,
+      "start_idx": 9113,
+      "end_idx": 9200
+    },
+    {
+      "timestamp": "2024-01-08 05:04:00",
+      "type": "partial_blockage",
+      "duration_min": 63,
+      "start_idx": 10384,
+      "end_idx": 10447
+    },
+    {
+      "timestamp": "2024-01-04 08:37:00",
+      "type": "partial_blockage",
+      "duration_min": 94,
+      "start_idx": 4837,
+      "end_idx": 4931
+    },
+    {
+      "timestamp": "2024-01-07 10:51:00",
+      "type": "electrical_fault",
+      "duration_min": 121,
+      "start_idx": 9291,
+      "end_idx": 9412
+    },
+    {
+      "timestamp": "2024-01-10 07:05:00",
+      "type": "partial_blockage",
+      "duration_min": 215,
+      "start_idx": 13385,
+      "end_idx": 13600
+    },
+    {
+      "timestamp": "2024-01-13 14:40:00",
+      "type": "seal_leak",
+      "duration_min": 231,
+      "start_idx": 18160,
+      "end_idx": 18391
+    },
+    {
+      "timestamp": "2024-01-09 16:09:00",
+      "type": "bearing_wear",
+      "duration_min": 67,
+      "start_idx": 12489,
+      "end_idx": 12556
+    },
+    {
+      "timestamp": "2024-01-22 08:12:00",
+      "type": "electrical_fault",
+      "duration_min": 50,
+      "start_idx": 30732,
+      "end_idx": 30782
+    },
+    {
+      "timestamp": "2024-01-10 10:29:00",
+      "type": "seal_leak",
+      "duration_min": 131,
+      "start_idx": 13589,
+      "end_idx": 13720
+    },
+    {
+      "timestamp": "2024-01-24 16:30:00",
+      "type": "electrical_fault",
+      "duration_min": 136,
+      "start_idx": 34110,
+      "end_idx": 34246
+    },
+    {
+      "timestamp": "2024-01-05 20:16:00",
+      "type": "seal_leak",
+      "duration_min": 166,
+      "start_idx": 6976,
+      "end_idx": 7142
+    },
+    {
+      "timestamp": "2024-01-17 19:51:00",
+      "type": "electrical_fault",
+      "duration_min": 65,
+      "start_idx": 24231,
+      "end_idx": 24296
+    },
+    {
+      "timestamp": "2024-01-20 08:57:00",
+      "type": "seal_leak",
+      "duration_min": 56,
+      "start_idx": 27897,
+      "end_idx": 27953
+    },
+    {
+      "timestamp": "2024-01-06 00:12:00",
+      "type": "cavitation",
+      "duration_min": 176,
+      "start_idx": 7212,
+      "end_idx": 7388
+    },
+    {
+      "timestamp": "2024-01-14 08:36:00",
+      "type": "bearing_wear",
+      "duration_min": 199,
+      "start_idx": 19236,
+      "end_idx": 19435
+    },
+    {
+      "timestamp": "2024-01-18 07:15:00",
+      "type": "partial_blockage",
+      "duration_min": 212,
+      "start_idx": 24915,
+      "end_idx": 25127
+    },
+    {
+      "timestamp": "2024-01-08 01:36:00",
+      "type": "seal_leak",
+      "duration_min": 44,
+      "start_idx": 10176,
+      "end_idx": 10220
+    },
+    {
+      "timestamp": "2024-01-26 21:20:00",
+      "type": "partial_blockage",
+      "duration_min": 227,
+      "start_idx": 37280,
+      "end_idx": 37507
+    },
+    {
+      "timestamp": "2024-01-10 01:54:00",
+      "type": "partial_blockage",
+      "duration_min": 153,
+      "start_idx": 13074,
+      "end_idx": 13227
+    },
+    {
+      "timestamp": "2024-01-16 08:34:00",
+      "type": "cavitation",
+      "duration_min": 183,
+      "start_idx": 22114,
+      "end_idx": 22297
+    },
+    {
+      "timestamp": "2024-01-08 22:31:00",
+      "type": "partial_blockage",
+      "duration_min": 44,
+      "start_idx": 11431,
+      "end_idx": 11475
+    },
+    {
+      "timestamp": "2024-01-05 14:54:00",
+      "type": "bearing_wear",
+      "duration_min": 47,
+      "start_idx": 6654,
+      "end_idx": 6701
+    },
+    {
+      "timestamp": "2024-01-14 07:17:00",
+      "type": "seal_leak",
+      "duration_min": 104,
+      "start_idx": 19157,
+      "end_idx": 19261
+    },
+    {
+      "timestamp": "2024-01-18 03:59:00",
+      "type": "bearing_wear",
+      "duration_min": 44,
+      "start_idx": 24719,
+      "end_idx": 24763
+    },
+    {
+      "timestamp": "2024-01-08 06:59:00",
+      "type": "electrical_fault",
+      "duration_min": 195,
+      "start_idx": 10499,
+      "end_idx": 10694
+    },
+    {
+      "timestamp": "2024-01-20 17:28:00",
+      "type": "bearing_wear",
+      "duration_min": 40,
+      "start_idx": 28408,
+      "end_idx": 28448
+    },
+    {
+      "timestamp": "2024-01-27 15:58:00",
+      "type": "bearing_wear",
+      "duration_min": 228,
+      "start_idx": 38398,
+      "end_idx": 38626
+    },
+    {
+      "timestamp": "2024-01-05 14:31:00",
+      "type": "bearing_wear",
+      "duration_min": 88,
+      "start_idx": 6631,
+      "end_idx": 6719
+    },
+    {
+      "timestamp": "2024-01-05 02:17:00",
+      "type": "electrical_fault",
+      "duration_min": 58,
+      "start_idx": 5897,
+      "end_idx": 5955
+    },
+    {
+      "timestamp": "2024-01-11 05:43:00",
+      "type": "partial_blockage",
+      "duration_min": 216,
+      "start_idx": 14743,
+      "end_idx": 14959
+    },
+    {
+      "timestamp": "2024-01-21 23:15:00",
+      "type": "partial_blockage",
+      "duration_min": 182,
+      "start_idx": 30195,
+      "end_idx": 30377
+    },
+    {
+      "timestamp": "2024-01-24 22:49:00",
+      "type": "seal_leak",
+      "duration_min": 115,
+      "start_idx": 34489,
+      "end_idx": 34604
+    },
+    {
+      "timestamp": "2024-01-19 14:27:00",
+      "type": "electrical_fault",
+      "duration_min": 47,
+      "start_idx": 26787,
+      "end_idx": 26834
+    },
+    {
+      "timestamp": "2024-01-09 18:45:00",
+      "type": "partial_blockage",
+      "duration_min": 138,
+      "start_idx": 12645,
+      "end_idx": 12783
+    },
+    {
+      "timestamp": "2024-01-06 14:59:00",
+      "type": "seal_leak",
+      "duration_min": 206,
+      "start_idx": 8099,
+      "end_idx": 8305
+    },
+    {
+      "timestamp": "2024-01-19 20:45:00",
+      "type": "cavitation",
+      "duration_min": 39,
+      "start_idx": 27165,
+      "end_idx": 27204
+    },
+    {
+      "timestamp": "2024-01-06 02:49:00",
+      "type": "bearing_wear",
+      "duration_min": 194,
+      "start_idx": 7369,
+      "end_idx": 7563
+    },
+    {
+      "timestamp": "2024-01-04 11:35:00",
+      "type": "partial_blockage",
+      "duration_min": 90,
+      "start_idx": 5015,
+      "end_idx": 5105
+    },
+    {
+      "timestamp": "2024-01-17 22:44:00",
+      "type": "seal_leak",
+      "duration_min": 132,
+      "start_idx": 24404,
+      "end_idx": 24536
+    },
+    {
+      "timestamp": "2024-01-10 14:39:00",
+      "type": "cavitation",
+      "duration_min": 82,
+      "start_idx": 13839,
+      "end_idx": 13921
+    },
+    {
+      "timestamp": "2024-01-27 01:42:00",
+      "type": "electrical_fault",
+      "duration_min": 62,
+      "start_idx": 37542,
+      "end_idx": 37604
+    },
+    {
+      "timestamp": "2024-01-10 22:38:00",
+      "type": "seal_leak",
+      "duration_min": 210,
+      "start_idx": 14318,
+      "end_idx": 14528
+    },
+    {
+      "timestamp": "2024-01-14 11:31:00",
+      "type": "cavitation",
+      "duration_min": 233,
+      "start_idx": 19411,
+      "end_idx": 19644
+    },
+    {
+      "timestamp": "2024-01-24 08:39:00",
+      "type": "electrical_fault",
+      "duration_min": 147,
+      "start_idx": 33639,
+      "end_idx": 33786
+    },
+    {
+      "timestamp": "2024-01-10 07:25:00",
+      "type": "seal_leak",
+      "duration_min": 135,
+      "start_idx": 13405,
+      "end_idx": 13540
+    },
+    {
+      "timestamp": "2024-01-07 23:15:00",
+      "type": "seal_leak",
+      "duration_min": 153,
+      "start_idx": 10035,
+      "end_idx": 10188
+    },
+    {
+      "timestamp": "2024-01-24 11:02:00",
+      "type": "bearing_wear",
+      "duration_min": 178,
+      "start_idx": 33782,
+      "end_idx": 33960
+    },
+    {
+      "timestamp": "2024-01-13 19:16:00",
+      "type": "cavitation",
+      "duration_min": 192,
+      "start_idx": 18436,
+      "end_idx": 18628
+    },
+    {
+      "timestamp": "2024-01-10 16:17:00",
+      "type": "electrical_fault",
+      "duration_min": 105,
+      "start_idx": 13937,
+      "end_idx": 14042
+    },
+    {
+      "timestamp": "2024-01-19 10:51:00",
+      "type": "cavitation",
+      "duration_min": 160,
+      "start_idx": 26571,
+      "end_idx": 26731
+    },
+    {
+      "timestamp": "2024-01-17 11:06:00",
+      "type": "electrical_fault",
+      "duration_min": 115,
+      "start_idx": 23706,
+      "end_idx": 23821
+    },
+    {
+      "timestamp": "2024-01-26 22:32:00",
+      "type": "bearing_wear",
+      "duration_min": 39,
+      "start_idx": 37352,
+      "end_idx": 37391
+    },
+    {
+      "timestamp": "2024-01-21 00:02:00",
+      "type": "partial_blockage",
+      "duration_min": 83,
+      "start_idx": 28802,
+      "end_idx": 28885
+    },
+    {
+      "timestamp": "2024-01-08 07:02:00",
+      "type": "seal_leak",
+      "duration_min": 199,
+      "start_idx": 10502,
+      "end_idx": 10701
+    },
+    {
+      "timestamp": "2024-01-05 15:53:00",
+      "type": "partial_blockage",
+      "duration_min": 133,
+      "start_idx": 6713,
+      "end_idx": 6846
+    },
+    {
+      "timestamp": "2024-01-25 16:22:00",
+      "type": "cavitation",
+      "duration_min": 134,
+      "start_idx": 35542,
+      "end_idx": 35676
+    },
+    {
+      "timestamp": "2024-01-22 21:25:00",
+      "type": "cavitation",
+      "duration_min": 96,
+      "start_idx": 31525,
+      "end_idx": 31621
+    },
+    {
+      "timestamp": "2024-01-18 00:37:00",
+      "type": "cavitation",
+      "duration_min": 84,
+      "start_idx": 24517,
+      "end_idx": 24601
+    },
+    {
+      "timestamp": "2024-01-19 20:41:00",
+      "type": "bearing_wear",
+      "duration_min": 108,
+      "start_idx": 27161,
+      "end_idx": 27269
+    },
+    {
+      "timestamp": "2024-01-19 12:01:00",
+      "type": "bearing_wear",
+      "duration_min": 30,
+      "start_idx": 26641,
+      "end_idx": 26671
+    },
+    {
+      "timestamp": "2024-01-26 08:12:00",
+      "type": "bearing_wear",
+      "duration_min": 129,
+      "start_idx": 36492,
+      "end_idx": 36621
+    },
+    {
+      "timestamp": "2024-01-15 04:24:00",
+      "type": "bearing_wear",
+      "duration_min": 143,
+      "start_idx": 20424,
+      "end_idx": 20567
+    },
+    {
+      "timestamp": "2024-01-21 14:57:00",
+      "type": "bearing_wear",
+      "duration_min": 36,
+      "start_idx": 29697,
+      "end_idx": 29733
+    },
+    {
+      "timestamp": "2024-01-06 12:14:00",
+      "type": "partial_blockage",
+      "duration_min": 138,
+      "start_idx": 7934,
+      "end_idx": 8072
+    },
+    {
+      "timestamp": "2024-01-19 08:38:00",
+      "type": "seal_leak",
+      "duration_min": 218,
+      "start_idx": 26438,
+      "end_idx": 26656
+    },
+    {
+      "timestamp": "2024-01-15 14:57:00",
+      "type": "bearing_wear",
+      "duration_min": 98,
+      "start_idx": 21057,
+      "end_idx": 21155
+    },
+    {
+      "timestamp": "2024-01-08 00:55:00",
+      "type": "partial_blockage",
+      "duration_min": 162,
+      "start_idx": 10135,
+      "end_idx": 10297
+    },
+    {
+      "timestamp": "2024-01-13 03:08:00",
+      "type": "seal_leak",
+      "duration_min": 101,
+      "start_idx": 17468,
+      "end_idx": 17569
+    },
+    {
+      "timestamp": "2024-01-27 06:30:00",
+      "type": "cavitation",
+      "duration_min": 103,
+      "start_idx": 37830,
+      "end_idx": 37933
+    },
+    {
+      "timestamp": "2024-01-06 20:31:00",
+      "type": "bearing_wear",
+      "duration_min": 66,
+      "start_idx": 8431,
+      "end_idx": 8497
+    },
+    {
+      "timestamp": "2024-01-15 12:47:00",
+      "type": "seal_leak",
+      "duration_min": 165,
+      "start_idx": 20927,
+      "end_idx": 21092
+    },
+    {
+      "timestamp": "2024-01-22 08:25:00",
+      "type": "partial_blockage",
+      "duration_min": 145,
+      "start_idx": 30745,
+      "end_idx": 30890
+    },
+    {
+      "timestamp": "2024-01-16 04:25:00",
+      "type": "bearing_wear",
+      "duration_min": 114,
+      "start_idx": 21865,
+      "end_idx": 21979
+    },
+    {
+      "timestamp": "2024-01-20 06:00:00",
+      "type": "cavitation",
+      "duration_min": 44,
+      "start_idx": 27720,
+      "end_idx": 27764
+    },
+    {
+      "timestamp": "2024-01-19 12:34:00",
+      "type": "partial_blockage",
+      "duration_min": 193,
+      "start_idx": 26674,
+      "end_idx": 26867
+    },
+    {
+      "timestamp": "2024-01-26 05:43:00",
+      "type": "bearing_wear",
+      "duration_min": 153,
+      "start_idx": 36343,
+      "end_idx": 36496
+    },
+    {
+      "timestamp": "2024-01-22 23:29:00",
+      "type": "seal_leak",
+      "duration_min": 146,
+      "start_idx": 31649,
+      "end_idx": 31795
+    },
+    {
+      "timestamp": "2024-01-19 07:57:00",
+      "type": "cavitation",
+      "duration_min": 80,
+      "start_idx": 26397,
+      "end_idx": 26477
+    },
+    {
+      "timestamp": "2024-01-04 02:00:00",
+      "type": "bearing_wear",
+      "duration_min": 163,
+      "start_idx": 4440,
+      "end_idx": 4603
+    },
+    {
+      "timestamp": "2024-01-21 02:07:00",
+      "type": "seal_leak",
+      "duration_min": 206,
+      "start_idx": 28927,
+      "end_idx": 29133
+    },
+    {
+      "timestamp": "2024-01-18 10:34:00",
+      "type": "partial_blockage",
+      "duration_min": 197,
+      "start_idx": 25114,
+      "end_idx": 25311
+    },
+    {
+      "timestamp": "2024-01-19 13:12:00",
+      "type": "seal_leak",
+      "duration_min": 150,
+      "start_idx": 26712,
+      "end_idx": 26862
+    },
+    {
+      "timestamp": "2024-01-11 09:18:00",
+      "type": "partial_blockage",
+      "duration_min": 191,
+      "start_idx": 14958,
+      "end_idx": 15149
+    },
+    {
+      "timestamp": "2024-01-15 05:36:00",
+      "type": "cavitation",
+      "duration_min": 187,
+      "start_idx": 20496,
+      "end_idx": 20683
+    },
+    {
+      "timestamp": "2024-01-07 08:33:00",
+      "type": "seal_leak",
+      "duration_min": 95,
+      "start_idx": 9153,
+      "end_idx": 9248
+    },
+    {
+      "timestamp": "2024-01-25 09:28:00",
+      "type": "cavitation",
+      "duration_min": 44,
+      "start_idx": 35128,
+      "end_idx": 35172
+    },
+    {
+      "timestamp": "2024-01-16 22:23:00",
+      "type": "seal_leak",
+      "duration_min": 161,
+      "start_idx": 22943,
+      "end_idx": 23104
+    },
+    {
+      "timestamp": "2024-01-16 10:45:00",
+      "type": "bearing_wear",
+      "duration_min": 100,
+      "start_idx": 22245,
+      "end_idx": 22345
+    },
+    {
+      "timestamp": "2024-01-07 13:37:00",
+      "type": "partial_blockage",
+      "duration_min": 155,
+      "start_idx": 9457,
+      "end_idx": 9612
+    },
+    {
+      "timestamp": "2024-01-08 17:27:00",
+      "type": "seal_leak",
+      "duration_min": 33,
+      "start_idx": 11127,
+      "end_idx": 11160
+    },
+    {
+      "timestamp": "2024-01-04 21:15:00",
+      "type": "seal_leak",
+      "duration_min": 228,
+      "start_idx": 5595,
+      "end_idx": 5823
+    },
+    {
+      "timestamp": "2024-01-05 13:27:00",
+      "type": "partial_blockage",
+      "duration_min": 80,
+      "start_idx": 6567,
+      "end_idx": 6647
+    },
+    {
+      "timestamp": "2024-01-26 20:25:00",
+      "type": "seal_leak",
+      "duration_min": 222,
+      "start_idx": 37225,
+      "end_idx": 37447
+    },
+    {
+      "timestamp": "2024-01-24 16:41:00",
+      "type": "cavitation",
+      "duration_min": 234,
+      "start_idx": 34121,
+      "end_idx": 34355
+    },
+    {
+      "timestamp": "2024-01-18 00:15:00",
+      "type": "electrical_fault",
+      "duration_min": 151,
+      "start_idx": 24495,
+      "end_idx": 24646
+    },
+    {
+      "timestamp": "2024-01-13 07:12:00",
+      "type": "partial_blockage",
+      "duration_min": 178,
+      "start_idx": 17712,
+      "end_idx": 17890
+    },
+    {
+      "timestamp": "2024-01-07 14:35:00",
+      "type": "bearing_wear",
+      "duration_min": 119,
+      "start_idx": 9515,
+      "end_idx": 9634
+    },
+    {
+      "timestamp": "2024-01-14 16:15:00",
+      "type": "seal_leak",
+      "duration_min": 149,
+      "start_idx": 19695,
+      "end_idx": 19844
+    },
+    {
+      "timestamp": "2024-01-09 03:55:00",
+      "type": "partial_blockage",
+      "duration_min": 160,
+      "start_idx": 11755,
+      "end_idx": 11915
+    },
+    {
+      "timestamp": "2024-01-05 14:53:00",
+      "type": "partial_blockage",
+      "duration_min": 42,
+      "start_idx": 6653,
+      "end_idx": 6695
+    },
+    {
+      "timestamp": "2024-01-04 18:02:00",
+      "type": "partial_blockage",
+      "duration_min": 147,
+      "start_idx": 5402,
+      "end_idx": 5549
+    },
+    {
+      "timestamp": "2024-01-13 00:26:00",
+      "type": "cavitation",
+      "duration_min": 73,
+      "start_idx": 17306,
+      "end_idx": 17379
+    },
+    {
+      "timestamp": "2024-01-05 13:23:00",
+      "type": "electrical_fault",
+      "duration_min": 196,
+      "start_idx": 6563,
+      "end_idx": 6759
+    },
+    {
+      "timestamp": "2024-01-16 00:04:00",
+      "type": "bearing_wear",
+      "duration_min": 79,
+      "start_idx": 21604,
+      "end_idx": 21683
+    },
+    {
+      "timestamp": "2024-01-25 20:21:00",
+      "type": "electrical_fault",
+      "duration_min": 149,
+      "start_idx": 35781,
+      "end_idx": 35930
+    },
+    {
+      "timestamp": "2024-01-05 15:51:00",
+      "type": "seal_leak",
+      "duration_min": 53,
+      "start_idx": 6711,
+      "end_idx": 6764
+    },
+    {
+      "timestamp": "2024-01-18 13:12:00",
+      "type": "partial_blockage",
+      "duration_min": 62,
+      "start_idx": 25272,
+      "end_idx": 25334
+    },
+    {
+      "timestamp": "2024-01-26 22:04:00",
+      "type": "cavitation",
+      "duration_min": 145,
+      "start_idx": 37324,
+      "end_idx": 37469
+    },
+    {
+      "timestamp": "2024-01-26 14:50:00",
+      "type": "seal_leak",
+      "duration_min": 101,
+      "start_idx": 36890,
+      "end_idx": 36991
+    },
+    {
+      "timestamp": "2024-01-14 03:09:00",
+      "type": "electrical_fault",
+      "duration_min": 161,
+      "start_idx": 18909,
+      "end_idx": 19070
+    },
+    {
+      "timestamp": "2024-01-19 17:29:00",
+      "type": "bearing_wear",
+      "duration_min": 58,
+      "start_idx": 26969,
+      "end_idx": 27027
+    },
+    {
+      "timestamp": "2024-01-26 19:25:00",
+      "type": "cavitation",
+      "duration_min": 159,
+      "start_idx": 37165,
+      "end_idx": 37324
+    },
+    {
+      "timestamp": "2024-01-21 22:29:00",
+      "type": "seal_leak",
+      "duration_min": 135,
+      "start_idx": 30149,
+      "end_idx": 30284
+    },
+    {
+      "timestamp": "2024-01-23 00:38:00",
+      "type": "electrical_fault",
+      "duration_min": 31,
+      "start_idx": 31718,
+      "end_idx": 31749
+    },
+    {
+      "timestamp": "2024-01-17 17:42:00",
+      "type": "partial_blockage",
+      "duration_min": 149,
+      "start_idx": 24102,
+      "end_idx": 24251
+    },
+    {
+      "timestamp": "2024-01-14 23:19:00",
+      "type": "seal_leak",
+      "duration_min": 221,
+      "start_idx": 20119,
+      "end_idx": 20340
+    },
+    {
+      "timestamp": "2024-01-20 21:04:00",
+      "type": "seal_leak",
+      "duration_min": 61,
+      "start_idx": 28624,
+      "end_idx": 28685
+    },
+    {
+      "timestamp": "2024-01-21 12:40:00",
+      "type": "seal_leak",
+      "duration_min": 158,
+      "start_idx": 29560,
+      "end_idx": 29718
+    },
+    {
+      "timestamp": "2024-01-07 11:57:00",
+      "type": "seal_leak",
+      "duration_min": 148,
+      "start_idx": 9357,
+      "end_idx": 9505
+    },
+    {
+      "timestamp": "2024-01-14 07:49:00",
+      "type": "electrical_fault",
+      "duration_min": 162,
+      "start_idx": 19189,
+      "end_idx": 19351
+    },
+    {
+      "timestamp": "2024-01-18 17:37:00",
+      "type": "cavitation",
+      "duration_min": 76,
+      "start_idx": 25537,
+      "end_idx": 25613
+    },
+    {
+      "timestamp": "2024-01-21 07:37:00",
+      "type": "seal_leak",
+      "duration_min": 235,
+      "start_idx": 29257,
+      "end_idx": 29492
+    },
+    {
+      "timestamp": "2024-01-20 13:23:00",
+      "type": "seal_leak",
+      "duration_min": 169,
+      "start_idx": 28163,
+      "end_idx": 28332
+    },
+    {
+      "timestamp": "2024-01-26 22:20:00",
+      "type": "cavitation",
+      "duration_min": 45,
+      "start_idx": 37340,
+      "end_idx": 37385
+    },
+    {
+      "timestamp": "2024-01-09 10:59:00",
+      "type": "cavitation",
+      "duration_min": 45,
+      "start_idx": 12179,
+      "end_idx": 12224
+    },
+    {
+      "timestamp": "2024-01-11 02:46:00",
+      "type": "electrical_fault",
+      "duration_min": 77,
+      "start_idx": 14566,
+      "end_idx": 14643
+    },
+    {
+      "timestamp": "2024-01-11 04:55:00",
+      "type": "seal_leak",
+      "duration_min": 142,
+      "start_idx": 14695,
+      "end_idx": 14837
+    },
+    {
+      "timestamp": "2024-01-16 12:49:00",
+      "type": "partial_blockage",
+      "duration_min": 238,
+      "start_idx": 22369,
+      "end_idx": 22607
+    },
+    {
+      "timestamp": "2024-01-18 11:55:00",
+      "type": "seal_leak",
+      "duration_min": 211,
+      "start_idx": 25195,
+      "end_idx": 25406
+    },
+    {
+      "timestamp": "2024-01-27 20:32:00",
+      "type": "partial_blockage",
+      "duration_min": 137,
+      "start_idx": 38672,
+      "end_idx": 38809
+    },
+    {
+      "timestamp": "2024-01-05 05:14:00",
+      "type": "seal_leak",
+      "duration_min": 155,
+      "start_idx": 6074,
+      "end_idx": 6229
+    },
+    {
+      "timestamp": "2024-01-20 08:46:00",
+      "type": "cavitation",
+      "duration_min": 38,
+      "start_idx": 27886,
+      "end_idx": 27924
+    },
+    {
+      "timestamp": "2024-01-14 04:15:00",
+      "type": "seal_leak",
+      "duration_min": 238,
+      "start_idx": 18975,
+      "end_idx": 19213
+    },
+    {
+      "timestamp": "2024-01-20 00:10:00",
+      "type": "seal_leak",
+      "duration_min": 222,
+      "start_idx": 27370,
+      "end_idx": 27592
+    },
+    {
+      "timestamp": "2024-01-17 05:56:00",
+      "type": "partial_blockage",
+      "duration_min": 58,
+      "start_idx": 23396,
+      "end_idx": 23454
+    },
+    {
+      "timestamp": "2024-01-18 10:54:00",
+      "type": "cavitation",
+      "duration_min": 67,
+      "start_idx": 25134,
+      "end_idx": 25201
+    },
+    {
+      "timestamp": "2024-01-04 08:07:00",
+      "type": "cavitation",
+      "duration_min": 81,
+      "start_idx": 4807,
+      "end_idx": 4888
+    },
+    {
+      "timestamp": "2024-01-14 18:00:00",
+      "type": "bearing_wear",
+      "duration_min": 110,
+      "start_idx": 19800,
+      "end_idx": 19910
+    },
+    {
+      "timestamp": "2024-01-25 08:07:00",
+      "type": "electrical_fault",
+      "duration_min": 195,
+      "start_idx": 35047,
+      "end_idx": 35242
+    },
+    {
+      "timestamp": "2024-01-19 01:19:00",
+      "type": "bearing_wear",
+      "duration_min": 99,
+      "start_idx": 25999,
+      "end_idx": 26098
+    },
+    {
+      "timestamp": "2024-01-19 15:15:00",
+      "type": "partial_blockage",
+      "duration_min": 119,
+      "start_idx": 26835,
+      "end_idx": 26954
+    },
+    {
+      "timestamp": "2024-01-08 21:07:00",
+      "type": "cavitation",
+      "duration_min": 153,
+      "start_idx": 11347,
+      "end_idx": 11500
+    },
+    {
+      "timestamp": "2024-01-25 04:36:00",
+      "type": "cavitation",
+      "duration_min": 104,
+      "start_idx": 34836,
+      "end_idx": 34940
+    },
+    {
+      "timestamp": "2024-01-27 18:09:00",
+      "type": "bearing_wear",
+      "duration_min": 33,
+      "start_idx": 38529,
+      "end_idx": 38562
+    },
+    {
+      "timestamp": "2024-01-27 16:02:00",
+      "type": "cavitation",
+      "duration_min": 182,
+      "start_idx": 38402,
+      "end_idx": 38584
+    },
+    {
+      "timestamp": "2024-01-18 19:41:00",
+      "type": "cavitation",
+      "duration_min": 74,
+      "start_idx": 25661,
+      "end_idx": 25735
+    },
+    {
+      "timestamp": "2024-01-25 12:17:00",
+      "type": "bearing_wear",
+      "duration_min": 130,
+      "start_idx": 35297,
+      "end_idx": 35427
+    },
+    {
+      "timestamp": "2024-01-23 21:46:00",
+      "type": "bearing_wear",
+      "duration_min": 133,
+      "start_idx": 32986,
+      "end_idx": 33119
+    },
+    {
+      "timestamp": "2024-01-08 13:08:00",
+      "type": "cavitation",
+      "duration_min": 118,
+      "start_idx": 10868,
+      "end_idx": 10986
+    },
+    {
+      "timestamp": "2024-01-06 21:09:00",
+      "type": "seal_leak",
+      "duration_min": 223,
+      "start_idx": 8469,
+      "end_idx": 8692
+    },
+    {
+      "timestamp": "2024-01-22 13:22:00",
+      "type": "cavitation",
+      "duration_min": 207,
+      "start_idx": 31042,
+      "end_idx": 31249
+    },
+    {
+      "timestamp": "2024-01-13 06:09:00",
+      "type": "seal_leak",
+      "duration_min": 224,
+      "start_idx": 17649,
+      "end_idx": 17873
+    },
+    {
+      "timestamp": "2024-01-06 21:21:00",
+      "type": "cavitation",
+      "duration_min": 217,
+      "start_idx": 8481,
+      "end_idx": 8698
+    },
+    {
+      "timestamp": "2024-01-18 07:25:00",
+      "type": "electrical_fault",
+      "duration_min": 73,
+      "start_idx": 24925,
+      "end_idx": 24998
+    },
+    {
+      "timestamp": "2024-01-16 04:01:00",
+      "type": "electrical_fault",
+      "duration_min": 130,
+      "start_idx": 21841,
+      "end_idx": 21971
+    },
+    {
+      "timestamp": "2024-01-20 09:22:00",
+      "type": "seal_leak",
+      "duration_min": 206,
+      "start_idx": 27922,
+      "end_idx": 28128
+    },
+    {
+      "timestamp": "2024-01-23 08:50:00",
+      "type": "bearing_wear",
+      "duration_min": 57,
+      "start_idx": 32210,
+      "end_idx": 32267
+    },
+    {
+      "timestamp": "2024-01-23 09:55:00",
+      "type": "electrical_fault",
+      "duration_min": 234,
+      "start_idx": 32275,
+      "end_idx": 32509
+    },
+    {
+      "timestamp": "2024-01-19 04:23:00",
+      "type": "seal_leak",
+      "duration_min": 199,
+      "start_idx": 26183,
+      "end_idx": 26382
+    },
+    {
+      "timestamp": "2024-01-14 07:54:00",
+      "type": "seal_leak",
+      "duration_min": 130,
+      "start_idx": 19194,
+      "end_idx": 19324
+    },
+    {
+      "timestamp": "2024-01-14 16:11:00",
+      "type": "seal_leak",
+      "duration_min": 158,
+      "start_idx": 19691,
+      "end_idx": 19849
+    },
+    {
+      "timestamp": "2024-01-15 23:47:00",
+      "type": "seal_leak",
+      "duration_min": 97,
+      "start_idx": 21587,
+      "end_idx": 21684
+    },
+    {
+      "timestamp": "2024-01-23 04:20:00",
+      "type": "partial_blockage",
+      "duration_min": 67,
+      "start_idx": 31940,
+      "end_idx": 32007
+    },
+    {
+      "timestamp": "2024-01-16 06:34:00",
+      "type": "bearing_wear",
+      "duration_min": 177,
+      "start_idx": 21994,
+      "end_idx": 22171
+    },
+    {
+      "timestamp": "2024-01-07 02:34:00",
+      "type": "partial_blockage",
+      "duration_min": 72,
+      "start_idx": 8794,
+      "end_idx": 8866
+    },
+    {
+      "timestamp": "2024-01-18 01:22:00",
+      "type": "bearing_wear",
+      "duration_min": 163,
+      "start_idx": 24562,
+      "end_idx": 24725
+    },
+    {
+      "timestamp": "2024-01-21 16:20:00",
+      "type": "bearing_wear",
+      "duration_min": 184,
+      "start_idx": 29780,
+      "end_idx": 29964
+    },
+    {
+      "timestamp": "2024-01-26 07:24:00",
+      "type": "cavitation",
+      "duration_min": 103,
+      "start_idx": 36444,
+      "end_idx": 36547
+    },
+    {
+      "timestamp": "2024-01-07 07:21:00",
+      "type": "partial_blockage",
+      "duration_min": 194,
+      "start_idx": 9081,
+      "end_idx": 9275
+    },
+    {
+      "timestamp": "2024-01-15 16:25:00",
+      "type": "bearing_wear",
+      "duration_min": 180,
+      "start_idx": 21145,
+      "end_idx": 21325
+    },
+    {
+      "timestamp": "2024-01-26 15:15:00",
+      "type": "seal_leak",
+      "duration_min": 192,
+      "start_idx": 36915,
+      "end_idx": 37107
+    },
+    {
+      "timestamp": "2024-01-22 09:43:00",
+      "type": "partial_blockage",
+      "duration_min": 132,
+      "start_idx": 30823,
+      "end_idx": 30955
+    },
+    {
+      "timestamp": "2024-01-25 18:11:00",
+      "type": "seal_leak",
+      "duration_min": 85,
+      "start_idx": 35651,
+      "end_idx": 35736
+    },
+    {
+      "timestamp": "2024-01-21 03:52:00",
+      "type": "bearing_wear",
+      "duration_min": 79,
+      "start_idx": 29032,
+      "end_idx": 29111
+    },
+    {
+      "timestamp": "2024-01-13 10:03:00",
+      "type": "seal_leak",
+      "duration_min": 214,
+      "start_idx": 17883,
+      "end_idx": 18097
+    },
+    {
+      "timestamp": "2024-01-04 05:01:00",
+      "type": "bearing_wear",
+      "duration_min": 137,
+      "start_idx": 4621,
+      "end_idx": 4758
+    },
+    {
+      "timestamp": "2024-01-09 18:57:00",
+      "type": "seal_leak",
+      "duration_min": 194,
+      "start_idx": 12657,
+      "end_idx": 12851
+    },
+    {
+      "timestamp": "2024-01-18 22:11:00",
+      "type": "electrical_fault",
+      "duration_min": 33,
+      "start_idx": 25811,
+      "end_idx": 25844
+    },
+    {
+      "timestamp": "2024-01-25 09:41:00",
+      "type": "electrical_fault",
+      "duration_min": 82,
+      "start_idx": 35141,
+      "end_idx": 35223
+    },
+    {
+      "timestamp": "2024-01-20 03:43:00",
+      "type": "bearing_wear",
+      "duration_min": 35,
+      "start_idx": 27583,
+      "end_idx": 27618
+    },
+    {
+      "timestamp": "2024-01-23 17:34:00",
+      "type": "cavitation",
+      "duration_min": 204,
+      "start_idx": 32734,
+      "end_idx": 32938
+    },
+    {
+      "timestamp": "2024-01-27 00:18:00",
+      "type": "bearing_wear",
+      "duration_min": 192,
+      "start_idx": 37458,
+      "end_idx": 37650
+    },
+    {
+      "timestamp": "2024-01-21 21:09:00",
+      "type": "seal_leak",
+      "duration_min": 210,
+      "start_idx": 30069,
+      "end_idx": 30279
+    },
+    {
+      "timestamp": "2024-01-05 22:11:00",
+      "type": "cavitation",
+      "duration_min": 208,
+      "start_idx": 7091,
+      "end_idx": 7299
+    },
+    {
+      "timestamp": "2024-01-14 22:58:00",
+      "type": "electrical_fault",
+      "duration_min": 48,
+      "start_idx": 20098,
+      "end_idx": 20146
+    },
+    {
+      "timestamp": "2024-01-06 09:36:00",
+      "type": "bearing_wear",
+      "duration_min": 145,
+      "start_idx": 7776,
+      "end_idx": 7921
+    },
+    {
+      "timestamp": "2024-01-09 03:18:00",
+      "type": "electrical_fault",
+      "duration_min": 176,
+      "start_idx": 11718,
+      "end_idx": 11894
+    },
+    {
+      "timestamp": "2024-01-20 04:12:00",
+      "type": "cavitation",
+      "duration_min": 31,
+      "start_idx": 27612,
+      "end_idx": 27643
+    },
+    {
+      "timestamp": "2024-01-04 22:31:00",
+      "type": "seal_leak",
+      "duration_min": 84,
+      "start_idx": 5671,
+      "end_idx": 5755
+    },
+    {
+      "timestamp": "2024-01-18 19:45:00",
+      "type": "partial_blockage",
+      "duration_min": 232,
+      "start_idx": 25665,
+      "end_idx": 25897
+    },
+    {
+      "timestamp": "2024-01-11 17:18:00",
+      "type": "partial_blockage",
+      "duration_min": 71,
+      "start_idx": 15438,
+      "end_idx": 15509
+    },
+    {
+      "timestamp": "2024-01-09 06:07:00",
+      "type": "cavitation",
+      "duration_min": 166,
+      "start_idx": 11887,
+      "end_idx": 12053
+    },
+    {
+      "timestamp": "2024-01-23 23:29:00",
+      "type": "bearing_wear",
+      "duration_min": 59,
+      "start_idx": 33089,
+      "end_idx": 33148
+    },
+    {
+      "timestamp": "2024-01-19 00:19:00",
+      "type": "seal_leak",
+      "duration_min": 114,
+      "start_idx": 25939,
+      "end_idx": 26053
+    },
+    {
+      "timestamp": "2024-01-26 16:22:00",
+      "type": "bearing_wear",
+      "duration_min": 61,
+      "start_idx": 36982,
+      "end_idx": 37043
+    },
+    {
+      "timestamp": "2024-01-16 18:48:00",
+      "type": "cavitation",
+      "duration_min": 34,
+      "start_idx": 22728,
+      "end_idx": 22762
+    },
+    {
+      "timestamp": "2024-01-12 22:18:00",
+      "type": "bearing_wear",
+      "duration_min": 41,
+      "start_idx": 17178,
+      "end_idx": 17219
+    },
+    {
+      "timestamp": "2024-01-18 01:39:00",
+      "type": "cavitation",
+      "duration_min": 38,
+      "start_idx": 24579,
+      "end_idx": 24617
+    },
+    {
+      "timestamp": "2024-01-20 19:20:00",
+      "type": "bearing_wear",
+      "duration_min": 47,
+      "start_idx": 28520,
+      "end_idx": 28567
+    },
+    {
+      "timestamp": "2024-01-08 08:55:00",
+      "type": "bearing_wear",
+      "duration_min": 222,
+      "start_idx": 10615,
+      "end_idx": 10837
+    },
+    {
+      "timestamp": "2024-01-04 18:01:00",
+      "type": "cavitation",
+      "duration_min": 153,
+      "start_idx": 5401,
+      "end_idx": 5554
+    },
+    {
+      "timestamp": "2024-01-09 04:16:00",
+      "type": "cavitation",
+      "duration_min": 222,
+      "start_idx": 11776,
+      "end_idx": 11998
+    },
+    {
+      "timestamp": "2024-01-19 09:55:00",
+      "type": "electrical_fault",
+      "duration_min": 217,
+      "start_idx": 26515,
+      "end_idx": 26732
+    },
+    {
+      "timestamp": "2024-01-13 18:32:00",
+      "type": "electrical_fault",
+      "duration_min": 186,
+      "start_idx": 18392,
+      "end_idx": 18578
+    },
+    {
+      "timestamp": "2024-01-21 06:52:00",
+      "type": "seal_leak",
+      "duration_min": 168,
+      "start_idx": 29212,
+      "end_idx": 29380
+    },
+    {
+      "timestamp": "2024-01-26 20:42:00",
+      "type": "bearing_wear",
+      "duration_min": 128,
+      "start_idx": 37242,
+      "end_idx": 37370
+    },
+    {
+      "timestamp": "2024-01-11 21:13:00",
+      "type": "seal_leak",
+      "duration_min": 184,
+      "start_idx": 15673,
+      "end_idx": 15857
+    },
+    {
+      "timestamp": "2024-01-17 06:07:00",
+      "type": "cavitation",
+      "duration_min": 64,
+      "start_idx": 23407,
+      "end_idx": 23471
+    },
+    {
+      "timestamp": "2024-01-04 11:55:00",
+      "type": "electrical_fault",
+      "duration_min": 67,
+      "start_idx": 5035,
+      "end_idx": 5102
+    },
+    {
+      "timestamp": "2024-01-22 12:51:00",
+      "type": "partial_blockage",
+      "duration_min": 157,
+      "start_idx": 31011,
+      "end_idx": 31168
+    },
+    {
+      "timestamp": "2024-01-18 16:58:00",
+      "type": "electrical_fault",
+      "duration_min": 182,
+      "start_idx": 25498,
+      "end_idx": 25680
+    },
+    {
+      "timestamp": "2024-01-24 11:31:00",
+      "type": "partial_blockage",
+      "duration_min": 52,
+      "start_idx": 33811,
+      "end_idx": 33863
+    },
+    {
+      "timestamp": "2024-01-13 17:56:00",
+      "type": "cavitation",
+      "duration_min": 131,
+      "start_idx": 18356,
+      "end_idx": 18487
+    },
+    {
+      "timestamp": "2024-01-06 08:52:00",
+      "type": "cavitation",
+      "duration_min": 87,
+      "start_idx": 7732,
+      "end_idx": 7819
+    },
+    {
+      "timestamp": "2024-01-17 08:14:00",
+      "type": "partial_blockage",
+      "duration_min": 193,
+      "start_idx": 23534,
+      "end_idx": 23727
+    },
+    {
+      "timestamp": "2024-01-17 11:09:00",
+      "type": "partial_blockage",
+      "duration_min": 238,
+      "start_idx": 23709,
+      "end_idx": 23947
+    },
+    {
+      "timestamp": "2024-01-24 02:10:00",
+      "type": "electrical_fault",
+      "duration_min": 173,
+      "start_idx": 33250,
+      "end_idx": 33423
+    },
+    {
+      "timestamp": "2024-01-12 01:46:00",
+      "type": "seal_leak",
+      "duration_min": 123,
+      "start_idx": 15946,
+      "end_idx": 16069
+    },
+    {
+      "timestamp": "2024-01-26 13:19:00",
+      "type": "cavitation",
+      "duration_min": 173,
+      "start_idx": 36799,
+      "end_idx": 36972
+    },
+    {
+      "timestamp": "2024-01-15 13:38:00",
+      "type": "partial_blockage",
+      "duration_min": 80,
+      "start_idx": 20978,
+      "end_idx": 21058
+    },
+    {
+      "timestamp": "2024-01-12 03:25:00",
+      "type": "electrical_fault",
+      "duration_min": 159,
+      "start_idx": 16045,
+      "end_idx": 16204
+    },
+    {
+      "timestamp": "2024-01-13 17:49:00",
+      "type": "electrical_fault",
+      "duration_min": 71,
+      "start_idx": 18349,
+      "end_idx": 18420
+    },
+    {
+      "timestamp": "2024-01-06 20:56:00",
+      "type": "bearing_wear",
+      "duration_min": 156,
+      "start_idx": 8456,
+      "end_idx": 8612
+    },
+    {
+      "timestamp": "2024-01-22 14:24:00",
+      "type": "cavitation",
+      "duration_min": 44,
+      "start_idx": 31104,
+      "end_idx": 31148
+    },
+    {
+      "timestamp": "2024-01-14 23:05:00",
+      "type": "cavitation",
+      "duration_min": 210,
+      "start_idx": 20105,
+      "end_idx": 20315
+    },
+    {
+      "timestamp": "2024-01-25 06:41:00",
+      "type": "partial_blockage",
+      "duration_min": 74,
+      "start_idx": 34961,
+      "end_idx": 35035
+    },
+    {
+      "timestamp": "2024-01-16 04:45:00",
+      "type": "bearing_wear",
+      "duration_min": 118,
+      "start_idx": 21885,
+      "end_idx": 22003
+    },
+    {
+      "timestamp": "2024-01-10 01:41:00",
+      "type": "partial_blockage",
+      "duration_min": 93,
+      "start_idx": 13061,
+      "end_idx": 13154
+    },
+    {
+      "timestamp": "2024-01-14 07:33:00",
+      "type": "cavitation",
+      "duration_min": 148,
+      "start_idx": 19173,
+      "end_idx": 19321
+    },
+    {
+      "timestamp": "2024-01-06 10:58:00",
+      "type": "electrical_fault",
+      "duration_min": 140,
+      "start_idx": 7858,
+      "end_idx": 7998
+    },
+    {
+      "timestamp": "2024-01-24 02:35:00",
+      "type": "electrical_fault",
+      "duration_min": 183,
+      "start_idx": 33275,
+      "end_idx": 33458
+    },
+    {
+      "timestamp": "2024-01-25 04:32:00",
+      "type": "cavitation",
+      "duration_min": 221,
+      "start_idx": 34832,
+      "end_idx": 35053
+    },
+    {
+      "timestamp": "2024-01-20 01:17:00",
+      "type": "seal_leak",
+      "duration_min": 183,
+      "start_idx": 27437,
+      "end_idx": 27620
+    },
+    {
+      "timestamp": "2024-01-18 13:07:00",
+      "type": "cavitation",
+      "duration_min": 69,
+      "start_idx": 25267,
+      "end_idx": 25336
+    },
+    {
+      "timestamp": "2024-01-17 02:44:00",
+      "type": "bearing_wear",
+      "duration_min": 110,
+      "start_idx": 23204,
+      "end_idx": 23314
+    },
+    {
+      "timestamp": "2024-01-05 19:16:00",
+      "type": "partial_blockage",
+      "duration_min": 112,
+      "start_idx": 6916,
+      "end_idx": 7028
+    },
+    {
+      "timestamp": "2024-01-26 21:15:00",
+      "type": "cavitation",
+      "duration_min": 45,
+      "start_idx": 37275,
+      "end_idx": 37320
+    },
+    {
+      "timestamp": "2024-01-19 15:58:00",
+      "type": "electrical_fault",
+      "duration_min": 143,
+      "start_idx": 26878,
+      "end_idx": 27021
+    },
+    {
+      "timestamp": "2024-01-12 09:51:00",
+      "type": "cavitation",
+      "duration_min": 115,
+      "start_idx": 16431,
+      "end_idx": 16546
+    },
+    {
+      "timestamp": "2024-01-19 05:35:00",
+      "type": "cavitation",
+      "duration_min": 200,
+      "start_idx": 26255,
+      "end_idx": 26455
+    },
+    {
+      "timestamp": "2024-01-26 13:41:00",
+      "type": "electrical_fault",
+      "duration_min": 204,
+      "start_idx": 36821,
+      "end_idx": 37025
+    },
+    {
+      "timestamp": "2024-01-24 03:08:00",
+      "type": "bearing_wear",
+      "duration_min": 239,
+      "start_idx": 33308,
+      "end_idx": 33547
+    },
+    {
+      "timestamp": "2024-01-23 15:05:00",
+      "type": "bearing_wear",
+      "duration_min": 209,
+      "start_idx": 32585,
+      "end_idx": 32794
+    },
+    {
+      "timestamp": "2024-01-12 10:05:00",
+      "type": "electrical_fault",
+      "duration_min": 32,
+      "start_idx": 16445,
+      "end_idx": 16477
+    },
+    {
+      "timestamp": "2024-01-09 06:48:00",
+      "type": "seal_leak",
+      "duration_min": 142,
+      "start_idx": 11928,
+      "end_idx": 12070
+    },
+    {
+      "timestamp": "2024-01-20 22:27:00",
+      "type": "electrical_fault",
+      "duration_min": 168,
+      "start_idx": 28707,
+      "end_idx": 28875
+    },
+    {
+      "timestamp": "2024-01-25 12:21:00",
+      "type": "seal_leak",
+      "duration_min": 49,
+      "start_idx": 35301,
+      "end_idx": 35350
+    },
+    {
+      "timestamp": "2024-01-06 01:17:00",
+      "type": "cavitation",
+      "duration_min": 154,
+      "start_idx": 7277,
+      "end_idx": 7431
+    },
+    {
+      "timestamp": "2024-01-11 00:03:00",
+      "type": "seal_leak",
+      "duration_min": 194,
+      "start_idx": 14403,
+      "end_idx": 14597
+    },
+    {
+      "timestamp": "2024-01-09 20:52:00",
+      "type": "partial_blockage",
+      "duration_min": 34,
+      "start_idx": 12772,
+      "end_idx": 12806
+    },
+    {
+      "timestamp": "2024-01-26 02:49:00",
+      "type": "bearing_wear",
+      "duration_min": 212,
+      "start_idx": 36169,
+      "end_idx": 36381
+    },
+    {
+      "timestamp": "2024-01-27 03:42:00",
+      "type": "partial_blockage",
+      "duration_min": 131,
+      "start_idx": 37662,
+      "end_idx": 37793
+    },
+    {
+      "timestamp": "2024-01-12 03:30:00",
+      "type": "electrical_fault",
+      "duration_min": 40,
+      "start_idx": 16050,
+      "end_idx": 16090
+    },
+    {
+      "timestamp": "2024-01-11 23:19:00",
+      "type": "partial_blockage",
+      "duration_min": 124,
+      "start_idx": 15799,
+      "end_idx": 15923
+    },
+    {
+      "timestamp": "2024-01-17 01:39:00",
+      "type": "bearing_wear",
+      "duration_min": 98,
+      "start_idx": 23139,
+      "end_idx": 23237
+    },
+    {
+      "timestamp": "2024-01-25 21:39:00",
+      "type": "partial_blockage",
+      "duration_min": 31,
+      "start_idx": 35859,
+      "end_idx": 35890
+    },
+    {
+      "timestamp": "2024-01-26 00:54:00",
+      "type": "seal_leak",
+      "duration_min": 181,
+      "start_idx": 36054,
+      "end_idx": 36235
+    },
+    {
+      "timestamp": "2024-01-21 13:56:00",
+      "type": "bearing_wear",
+      "duration_min": 199,
+      "start_idx": 29636,
+      "end_idx": 29835
+    },
+    {
+      "timestamp": "2024-01-21 22:21:00",
+      "type": "cavitation",
+      "duration_min": 119,
+      "start_idx": 30141,
+      "end_idx": 30260
+    },
+    {
+      "timestamp": "2024-01-05 19:50:00",
+      "type": "electrical_fault",
+      "duration_min": 133,
+      "start_idx": 6950,
+      "end_idx": 7083
+    },
+    {
+      "timestamp": "2024-01-06 16:44:00",
+      "type": "cavitation",
+      "duration_min": 43,
+      "start_idx": 8204,
+      "end_idx": 8247
+    },
+    {
+      "timestamp": "2024-01-09 13:36:00",
+      "type": "cavitation",
+      "duration_min": 172,
+      "start_idx": 12336,
+      "end_idx": 12508
+    },
+    {
+      "timestamp": "2024-01-24 05:11:00",
+      "type": "electrical_fault",
+      "duration_min": 143,
+      "start_idx": 33431,
+      "end_idx": 33574
+    },
+    {
+      "timestamp": "2024-01-22 21:44:00",
+      "type": "electrical_fault",
+      "duration_min": 222,
+      "start_idx": 31544,
+      "end_idx": 31766
+    },
+    {
+      "timestamp": "2024-01-10 11:20:00",
+      "type": "bearing_wear",
+      "duration_min": 58,
+      "start_idx": 13640,
+      "end_idx": 13698
+    },
+    {
+      "timestamp": "2024-01-05 16:03:00",
+      "type": "seal_leak",
+      "duration_min": 42,
+      "start_idx": 6723,
+      "end_idx": 6765
+    },
+    {
+      "timestamp": "2024-01-08 08:35:00",
+      "type": "bearing_wear",
+      "duration_min": 127,
+      "start_idx": 10595,
+      "end_idx": 10722
+    },
+    {
+      "timestamp": "2024-01-22 02:15:00",
+      "type": "seal_leak",
+      "duration_min": 204,
+      "start_idx": 30375,
+      "end_idx": 30579
+    },
+    {
+      "timestamp": "2024-01-12 20:23:00",
+      "type": "bearing_wear",
+      "duration_min": 32,
+      "start_idx": 17063,
+      "end_idx": 17095
+    },
+    {
+      "timestamp": "2024-01-16 13:42:00",
+      "type": "bearing_wear",
+      "duration_min": 41,
+      "start_idx": 22422,
+      "end_idx": 22463
+    },
+    {
+      "timestamp": "2024-01-13 07:27:00",
+      "type": "partial_blockage",
+      "duration_min": 219,
+      "start_idx": 17727,
+      "end_idx": 17946
+    },
+    {
+      "timestamp": "2024-01-07 23:47:00",
+      "type": "seal_leak",
+      "duration_min": 107,
+      "start_idx": 10067,
+      "end_idx": 10174
+    },
+    {
+      "timestamp": "2024-01-15 13:35:00",
+      "type": "partial_blockage",
+      "duration_min": 65,
+      "start_idx": 20975,
+      "end_idx": 21040
+    },
+    {
+      "timestamp": "2024-01-25 15:30:00",
+      "type": "cavitation",
+      "duration_min": 132,
+      "start_idx": 35490,
+      "end_idx": 35622
+    },
+    {
+      "timestamp": "2024-01-05 01:37:00",
+      "type": "seal_leak",
+      "duration_min": 151,
+      "start_idx": 5857,
+      "end_idx": 6008
+    },
+    {
+      "timestamp": "2024-01-18 21:56:00",
+      "type": "seal_leak",
+      "duration_min": 233,
+      "start_idx": 25796,
+      "end_idx": 26029
+    },
+    {
+      "timestamp": "2024-01-16 01:04:00",
+      "type": "electrical_fault",
+      "duration_min": 208,
+      "start_idx": 21664,
+      "end_idx": 21872
+    },
+    {
+      "timestamp": "2024-01-23 18:31:00",
+      "type": "partial_blockage",
+      "duration_min": 113,
+      "start_idx": 32791,
+      "end_idx": 32904
+    },
+    {
+      "timestamp": "2024-01-27 13:44:00",
+      "type": "electrical_fault",
+      "duration_min": 121,
+      "start_idx": 38264,
+      "end_idx": 38385
+    },
+    {
+      "timestamp": "2024-01-26 12:37:00",
+      "type": "electrical_fault",
+      "duration_min": 39,
+      "start_idx": 36757,
+      "end_idx": 36796
+    },
+    {
+      "timestamp": "2024-01-15 14:13:00",
+      "type": "partial_blockage",
+      "duration_min": 225,
+      "start_idx": 21013,
+      "end_idx": 21238
+    },
+    {
+      "timestamp": "2024-01-08 23:17:00",
+      "type": "electrical_fault",
+      "duration_min": 194,
+      "start_idx": 11477,
+      "end_idx": 11671
+    },
+    {
+      "timestamp": "2024-01-13 21:58:00",
+      "type": "bearing_wear",
+      "duration_min": 202,
+      "start_idx": 18598,
+      "end_idx": 18800
+    },
+    {
+      "timestamp": "2024-01-26 19:15:00",
+      "type": "bearing_wear",
+      "duration_min": 209,
+      "start_idx": 37155,
+      "end_idx": 37364
+    },
+    {
+      "timestamp": "2024-01-24 17:28:00",
+      "type": "partial_blockage",
+      "duration_min": 182,
+      "start_idx": 34168,
+      "end_idx": 34350
+    },
+    {
+      "timestamp": "2024-01-13 15:35:00",
+      "type": "partial_blockage",
+      "duration_min": 92,
+      "start_idx": 18215,
+      "end_idx": 18307
+    },
+    {
+      "timestamp": "2024-01-23 00:49:00",
+      "type": "cavitation",
+      "duration_min": 65,
+      "start_idx": 31729,
+      "end_idx": 31794
+    },
+    {
+      "timestamp": "2024-01-17 01:08:00",
+      "type": "partial_blockage",
+      "duration_min": 187,
+      "start_idx": 23108,
+      "end_idx": 23295
+    },
+    {
+      "timestamp": "2024-01-20 15:23:00",
+      "type": "partial_blockage",
+      "duration_min": 51,
+      "start_idx": 28283,
+      "end_idx": 28334
+    },
+    {
+      "timestamp": "2024-01-23 14:36:00",
+      "type": "cavitation",
+      "duration_min": 125,
+      "start_idx": 32556,
+      "end_idx": 32681
+    },
+    {
+      "timestamp": "2024-01-17 23:19:00",
+      "type": "seal_leak",
+      "duration_min": 76,
+      "start_idx": 24439,
+      "end_idx": 24515
+    },
+    {
+      "timestamp": "2024-01-20 21:00:00",
+      "type": "seal_leak",
+      "duration_min": 40,
+      "start_idx": 28620,
+      "end_idx": 28660
+    },
+    {
+      "timestamp": "2024-01-27 11:50:00",
+      "type": "electrical_fault",
+      "duration_min": 204,
+      "start_idx": 38150,
+      "end_idx": 38354
+    },
+    {
+      "timestamp": "2024-01-15 20:48:00",
+      "type": "electrical_fault",
+      "duration_min": 67,
+      "start_idx": 21408,
+      "end_idx": 21475
+    },
+    {
+      "timestamp": "2024-01-14 11:31:00",
+      "type": "bearing_wear",
+      "duration_min": 166,
+      "start_idx": 19411,
+      "end_idx": 19577
+    },
+    {
+      "timestamp": "2024-01-19 20:46:00",
+      "type": "cavitation",
+      "duration_min": 169,
+      "start_idx": 27166,
+      "end_idx": 27335
+    },
+    {
+      "timestamp": "2024-01-26 07:54:00",
+      "type": "cavitation",
+      "duration_min": 37,
+      "start_idx": 36474,
+      "end_idx": 36511
+    },
+    {
+      "timestamp": "2024-01-26 11:07:00",
+      "type": "electrical_fault",
+      "duration_min": 162,
+      "start_idx": 36667,
+      "end_idx": 36829
+    },
+    {
+      "timestamp": "2024-01-17 00:04:00",
+      "type": "electrical_fault",
+      "duration_min": 145,
+      "start_idx": 23044,
+      "end_idx": 23189
+    },
+    {
+      "timestamp": "2024-01-10 23:26:00",
+      "type": "partial_blockage",
+      "duration_min": 155,
+      "start_idx": 14366,
+      "end_idx": 14521
+    },
+    {
+      "timestamp": "2024-01-15 23:47:00",
+      "type": "seal_leak",
+      "duration_min": 185,
+      "start_idx": 21587,
+      "end_idx": 21772
+    },
+    {
+      "timestamp": "2024-01-11 10:46:00",
+      "type": "cavitation",
+      "duration_min": 49,
+      "start_idx": 15046,
+      "end_idx": 15095
+    },
+    {
+      "timestamp": "2024-01-11 05:15:00",
+      "type": "bearing_wear",
+      "duration_min": 167,
+      "start_idx": 14715,
+      "end_idx": 14882
+    },
+    {
+      "timestamp": "2024-01-21 09:37:00",
+      "type": "partial_blockage",
+      "duration_min": 132,
+      "start_idx": 29377,
+      "end_idx": 29509
+    },
+    {
+      "timestamp": "2024-01-17 01:48:00",
+      "type": "cavitation",
+      "duration_min": 192,
+      "start_idx": 23148,
+      "end_idx": 23340
+    },
+    {
+      "timestamp": "2024-01-12 04:44:00",
+      "type": "cavitation",
+      "duration_min": 226,
+      "start_idx": 16124,
+      "end_idx": 16350
+    },
+    {
+      "timestamp": "2024-01-24 11:22:00",
+      "type": "cavitation",
+      "duration_min": 63,
+      "start_idx": 33802,
+      "end_idx": 33865
+    },
+    {
+      "timestamp": "2024-01-06 23:49:00",
+      "type": "partial_blockage",
+      "duration_min": 121,
+      "start_idx": 8629,
+      "end_idx": 8750
+    },
+    {
+      "timestamp": "2024-01-22 17:29:00",
+      "type": "seal_leak",
+      "duration_min": 96,
+      "start_idx": 31289,
+      "end_idx": 31385
+    },
+    {
+      "timestamp": "2024-01-19 23:28:00",
+      "type": "bearing_wear",
+      "duration_min": 60,
+      "start_idx": 27328,
+      "end_idx": 27388
+    },
+    {
+      "timestamp": "2024-01-21 13:12:00",
+      "type": "partial_blockage",
+      "duration_min": 73,
+      "start_idx": 29592,
+      "end_idx": 29665
+    },
+    {
+      "timestamp": "2024-01-25 13:56:00",
+      "type": "bearing_wear",
+      "duration_min": 161,
+      "start_idx": 35396,
+      "end_idx": 35557
+    },
+    {
+      "timestamp": "2024-01-17 22:35:00",
+      "type": "electrical_fault",
+      "duration_min": 101,
+      "start_idx": 24395,
+      "end_idx": 24496
+    },
+    {
+      "timestamp": "2024-01-06 14:22:00",
+      "type": "partial_blockage",
+      "duration_min": 53,
+      "start_idx": 8062,
+      "end_idx": 8115
+    },
+    {
+      "timestamp": "2024-01-12 14:35:00",
+      "type": "seal_leak",
+      "duration_min": 47,
+      "start_idx": 16715,
+      "end_idx": 16762
+    },
+    {
+      "timestamp": "2024-01-09 23:37:00",
+      "type": "seal_leak",
+      "duration_min": 78,
+      "start_idx": 12937,
+      "end_idx": 13015
+    },
+    {
+      "timestamp": "2024-01-18 14:35:00",
+      "type": "cavitation",
+      "duration_min": 233,
+      "start_idx": 25355,
+      "end_idx": 25588
+    },
+    {
+      "timestamp": "2024-01-05 22:23:00",
+      "type": "partial_blockage",
+      "duration_min": 224,
+      "start_idx": 7103,
+      "end_idx": 7327
+    },
+    {
+      "timestamp": "2024-01-27 18:50:00",
+      "type": "seal_leak",
+      "duration_min": 147,
+      "start_idx": 38570,
+      "end_idx": 38717
+    },
+    {
+      "timestamp": "2024-01-13 05:00:00",
+      "type": "partial_blockage",
+      "duration_min": 136,
+      "start_idx": 17580,
+      "end_idx": 17716
+    },
+    {
+      "timestamp": "2024-01-24 08:18:00",
+      "type": "cavitation",
+      "duration_min": 121,
+      "start_idx": 33618,
+      "end_idx": 33739
+    },
+    {
+      "timestamp": "2024-01-09 16:11:00",
+      "type": "bearing_wear",
+      "duration_min": 235,
+      "start_idx": 12491,
+      "end_idx": 12726
+    },
+    {
+      "timestamp": "2024-01-18 12:05:00",
+      "type": "seal_leak",
+      "duration_min": 178,
+      "start_idx": 25205,
+      "end_idx": 25383
+    },
+    {
+      "timestamp": "2024-01-21 11:31:00",
+      "type": "electrical_fault",
+      "duration_min": 106,
+      "start_idx": 29491,
+      "end_idx": 29597
+    },
+    {
+      "timestamp": "2024-01-25 04:55:00",
+      "type": "cavitation",
+      "duration_min": 176,
+      "start_idx": 34855,
+      "end_idx": 35031
+    },
+    {
+      "timestamp": "2024-01-27 08:39:00",
+      "type": "bearing_wear",
+      "duration_min": 187,
+      "start_idx": 37959,
+      "end_idx": 38146
+    },
+    {
+      "timestamp": "2024-01-09 20:00:00",
+      "type": "bearing_wear",
+      "duration_min": 108,
+      "start_idx": 12720,
+      "end_idx": 12828
+    },
+    {
+      "timestamp": "2024-01-20 07:47:00",
+      "type": "electrical_fault",
+      "duration_min": 229,
+      "start_idx": 27827,
+      "end_idx": 28056
+    },
+    {
+      "timestamp": "2024-01-13 18:55:00",
+      "type": "bearing_wear",
+      "duration_min": 182,
+      "start_idx": 18415,
+      "end_idx": 18597
+    },
+    {
+      "timestamp": "2024-01-07 16:16:00",
+      "type": "bearing_wear",
+      "duration_min": 64,
+      "start_idx": 9616,
+      "end_idx": 9680
+    },
+    {
+      "timestamp": "2024-01-05 23:07:00",
+      "type": "partial_blockage",
+      "duration_min": 84,
+      "start_idx": 7147,
+      "end_idx": 7231
+    },
+    {
+      "timestamp": "2024-01-08 14:59:00",
+      "type": "partial_blockage",
+      "duration_min": 135,
+      "start_idx": 10979,
+      "end_idx": 11114
+    },
+    {
+      "timestamp": "2024-01-07 15:24:00",
+      "type": "cavitation",
+      "duration_min": 153,
+      "start_idx": 9564,
+      "end_idx": 9717
+    },
+    {
+      "timestamp": "2024-01-08 18:42:00",
+      "type": "partial_blockage",
+      "duration_min": 133,
+      "start_idx": 11202,
+      "end_idx": 11335
+    },
+    {
+      "timestamp": "2024-01-15 05:19:00",
+      "type": "bearing_wear",
+      "duration_min": 203,
+      "start_idx": 20479,
+      "end_idx": 20682
+    },
+    {
+      "timestamp": "2024-01-12 19:55:00",
+      "type": "cavitation",
+      "duration_min": 140,
+      "start_idx": 17035,
+      "end_idx": 17175
+    },
+    {
+      "timestamp": "2024-01-13 03:58:00",
+      "type": "electrical_fault",
+      "duration_min": 149,
+      "start_idx": 17518,
+      "end_idx": 17667
+    },
+    {
+      "timestamp": "2024-01-06 04:01:00",
+      "type": "partial_blockage",
+      "duration_min": 135,
+      "start_idx": 7441,
+      "end_idx": 7576
+    },
+    {
+      "timestamp": "2024-01-12 00:49:00",
+      "type": "cavitation",
+      "duration_min": 136,
+      "start_idx": 15889,
+      "end_idx": 16025
+    },
+    {
+      "timestamp": "2024-01-27 07:19:00",
+      "type": "seal_leak",
+      "duration_min": 114,
+      "start_idx": 37879,
+      "end_idx": 37993
+    },
+    {
+      "timestamp": "2024-01-08 14:30:00",
+      "type": "seal_leak",
+      "duration_min": 145,
+      "start_idx": 10950,
+      "end_idx": 11095
+    },
+    {
+      "timestamp": "2024-01-12 10:02:00",
+      "type": "seal_leak",
+      "duration_min": 145,
+      "start_idx": 16442,
+      "end_idx": 16587
+    },
+    {
+      "timestamp": "2024-01-07 09:22:00",
+      "type": "cavitation",
+      "duration_min": 234,
+      "start_idx": 9202,
+      "end_idx": 9436
+    },
+    {
+      "timestamp": "2024-01-07 09:04:00",
+      "type": "electrical_fault",
+      "duration_min": 60,
+      "start_idx": 9184,
+      "end_idx": 9244
+    },
+    {
+      "timestamp": "2024-01-04 01:17:00",
+      "type": "partial_blockage",
+      "duration_min": 64,
+      "start_idx": 4397,
+      "end_idx": 4461
+    },
+    {
+      "timestamp": "2024-01-18 03:58:00",
+      "type": "bearing_wear",
+      "duration_min": 187,
+      "start_idx": 24718,
+      "end_idx": 24905
+    },
+    {
+      "timestamp": "2024-01-09 15:20:00",
+      "type": "bearing_wear",
+      "duration_min": 167,
+      "start_idx": 12440,
+      "end_idx": 12607
+    },
+    {
+      "timestamp": "2024-01-21 11:41:00",
+      "type": "seal_leak",
+      "duration_min": 109,
+      "start_idx": 29501,
+      "end_idx": 29610
+    },
+    {
+      "timestamp": "2024-01-06 12:38:00",
+      "type": "partial_blockage",
+      "duration_min": 190,
+      "start_idx": 7958,
+      "end_idx": 8148
+    },
+    {
+      "timestamp": "2024-01-08 00:24:00",
+      "type": "seal_leak",
+      "duration_min": 183,
+      "start_idx": 10104,
+      "end_idx": 10287
+    },
+    {
+      "timestamp": "2024-01-09 16:01:00",
+      "type": "seal_leak",
+      "duration_min": 206,
+      "start_idx": 12481,
+      "end_idx": 12687
+    },
+    {
+      "timestamp": "2024-01-10 06:10:00",
+      "type": "partial_blockage",
+      "duration_min": 149,
+      "start_idx": 13330,
+      "end_idx": 13479
+    },
+    {
+      "timestamp": "2024-01-23 11:19:00",
+      "type": "seal_leak",
+      "duration_min": 201,
+      "start_idx": 32359,
+      "end_idx": 32560
+    },
+    {
+      "timestamp": "2024-01-06 15:23:00",
+      "type": "cavitation",
+      "duration_min": 116,
+      "start_idx": 8123,
+      "end_idx": 8239
+    },
+    {
+      "timestamp": "2024-01-10 18:44:00",
+      "type": "cavitation",
+      "duration_min": 45,
+      "start_idx": 14084,
+      "end_idx": 14129
+    },
+    {
+      "timestamp": "2024-01-17 23:28:00",
+      "type": "electrical_fault",
+      "duration_min": 42,
+      "start_idx": 24448,
+      "end_idx": 24490
+    },
+    {
+      "timestamp": "2024-01-04 17:41:00",
+      "type": "seal_leak",
+      "duration_min": 219,
+      "start_idx": 5381,
+      "end_idx": 5600
+    },
+    {
+      "timestamp": "2024-01-26 15:01:00",
+      "type": "seal_leak",
+      "duration_min": 230,
+      "start_idx": 36901,
+      "end_idx": 37131
+    },
+    {
+      "timestamp": "2024-01-24 12:42:00",
+      "type": "seal_leak",
+      "duration_min": 151,
+      "start_idx": 33882,
+      "end_idx": 34033
+    },
+    {
+      "timestamp": "2024-01-16 00:20:00",
+      "type": "partial_blockage",
+      "duration_min": 147,
+      "start_idx": 21620,
+      "end_idx": 21767
+    },
+    {
+      "timestamp": "2024-01-12 18:45:00",
+      "type": "partial_blockage",
+      "duration_min": 214,
+      "start_idx": 16965,
+      "end_idx": 17179
+    },
+    {
+      "timestamp": "2024-01-16 13:30:00",
+      "type": "partial_blockage",
+      "duration_min": 77,
+      "start_idx": 22410,
+      "end_idx": 22487
+    },
+    {
+      "timestamp": "2024-01-11 19:42:00",
+      "type": "partial_blockage",
+      "duration_min": 116,
+      "start_idx": 15582,
+      "end_idx": 15698
+    },
+    {
+      "timestamp": "2024-01-16 11:38:00",
+      "type": "bearing_wear",
+      "duration_min": 45,
+      "start_idx": 22298,
+      "end_idx": 22343
+    },
+    {
+      "timestamp": "2024-01-09 16:06:00",
+      "type": "electrical_fault",
+      "duration_min": 189,
+      "start_idx": 12486,
+      "end_idx": 12675
+    },
+    {
+      "timestamp": "2024-01-20 09:09:00",
+      "type": "seal_leak",
+      "duration_min": 151,
+      "start_idx": 27909,
+      "end_idx": 28060
+    },
+    {
+      "timestamp": "2024-01-24 13:29:00",
+      "type": "electrical_fault",
+      "duration_min": 71,
+      "start_idx": 33929,
+      "end_idx": 34000
+    },
+    {
+      "timestamp": "2024-01-25 07:16:00",
+      "type": "bearing_wear",
+      "duration_min": 177,
+      "start_idx": 34996,
+      "end_idx": 35173
+    },
+    {
+      "timestamp": "2024-01-19 21:19:00",
+      "type": "electrical_fault",
+      "duration_min": 71,
+      "start_idx": 27199,
+      "end_idx": 27270
+    },
+    {
+      "timestamp": "2024-01-04 19:40:00",
+      "type": "seal_leak",
+      "duration_min": 207,
+      "start_idx": 5500,
+      "end_idx": 5707
+    },
+    {
+      "timestamp": "2024-01-18 01:41:00",
+      "type": "electrical_fault",
+      "duration_min": 47,
+      "start_idx": 24581,
+      "end_idx": 24628
+    },
+    {
+      "timestamp": "2024-01-21 13:42:00",
+      "type": "electrical_fault",
+      "duration_min": 174,
+      "start_idx": 29622,
+      "end_idx": 29796
+    },
+    {
+      "timestamp": "2024-01-08 13:48:00",
+      "type": "cavitation",
+      "duration_min": 129,
+      "start_idx": 10908,
+      "end_idx": 11037
+    },
+    {
+      "timestamp": "2024-01-16 22:11:00",
+      "type": "partial_blockage",
+      "duration_min": 72,
+      "start_idx": 22931,
+      "end_idx": 23003
+    },
+    {
+      "timestamp": "2024-01-19 22:47:00",
+      "type": "seal_leak",
+      "duration_min": 134,
+      "start_idx": 27287,
+      "end_idx": 27421
+    },
+    {
+      "timestamp": "2024-01-10 19:17:00",
+      "type": "electrical_fault",
+      "duration_min": 212,
+      "start_idx": 14117,
+      "end_idx": 14329
+    },
+    {
+      "timestamp": "2024-01-18 06:12:00",
+      "type": "electrical_fault",
+      "duration_min": 132,
+      "start_idx": 24852,
+      "end_idx": 24984
+    },
+    {
+      "timestamp": "2024-01-05 08:56:00",
+      "type": "electrical_fault",
+      "duration_min": 207,
+      "start_idx": 6296,
+      "end_idx": 6503
+    },
+    {
+      "timestamp": "2024-01-17 11:31:00",
+      "type": "bearing_wear",
+      "duration_min": 100,
+      "start_idx": 23731,
+      "end_idx": 23831
+    },
+    {
+      "timestamp": "2024-01-13 02:42:00",
+      "type": "electrical_fault",
+      "duration_min": 236,
+      "start_idx": 17442,
+      "end_idx": 17678
+    },
+    {
+      "timestamp": "2024-01-24 07:57:00",
+      "type": "seal_leak",
+      "duration_min": 229,
+      "start_idx": 33597,
+      "end_idx": 33826
+    },
+    {
+      "timestamp": "2024-01-06 16:57:00",
+      "type": "electrical_fault",
+      "duration_min": 94,
+      "start_idx": 8217,
+      "end_idx": 8311
+    },
+    {
+      "timestamp": "2024-01-10 03:29:00",
+      "type": "seal_leak",
+      "duration_min": 133,
+      "start_idx": 13169,
+      "end_idx": 13302
+    },
+    {
+      "timestamp": "2024-01-17 10:30:00",
+      "type": "partial_blockage",
+      "duration_min": 34,
+      "start_idx": 23670,
+      "end_idx": 23704
+    },
+    {
+      "timestamp": "2024-01-12 00:55:00",
+      "type": "electrical_fault",
+      "duration_min": 155,
+      "start_idx": 15895,
+      "end_idx": 16050
+    },
+    {
+      "timestamp": "2024-01-04 03:23:00",
+      "type": "bearing_wear",
+      "duration_min": 239,
+      "start_idx": 4523,
+      "end_idx": 4762
+    },
+    {
+      "timestamp": "2024-01-27 14:45:00",
+      "type": "electrical_fault",
+      "duration_min": 174,
+      "start_idx": 38325,
+      "end_idx": 38499
+    },
+    {
+      "timestamp": "2024-01-21 13:33:00",
+      "type": "cavitation",
+      "duration_min": 79,
+      "start_idx": 29613,
+      "end_idx": 29692
+    },
+    {
+      "timestamp": "2024-01-27 11:13:00",
+      "type": "bearing_wear",
+      "duration_min": 56,
+      "start_idx": 38113,
+      "end_idx": 38169
+    },
+    {
+      "timestamp": "2024-01-23 12:22:00",
+      "type": "cavitation",
+      "duration_min": 70,
+      "start_idx": 32422,
+      "end_idx": 32492
+    },
+    {
+      "timestamp": "2024-01-07 22:48:00",
+      "type": "partial_blockage",
+      "duration_min": 167,
+      "start_idx": 10008,
+      "end_idx": 10175
+    },
+    {
+      "timestamp": "2024-01-20 09:18:00",
+      "type": "partial_blockage",
+      "duration_min": 113,
+      "start_idx": 27918,
+      "end_idx": 28031
+    },
+    {
+      "timestamp": "2024-01-12 14:11:00",
+      "type": "bearing_wear",
+      "duration_min": 50,
+      "start_idx": 16691,
+      "end_idx": 16741
+    },
+    {
+      "timestamp": "2024-01-15 07:40:00",
+      "type": "seal_leak",
+      "duration_min": 66,
+      "start_idx": 20620,
+      "end_idx": 20686
+    },
+    {
+      "timestamp": "2024-01-05 13:27:00",
+      "type": "partial_blockage",
+      "duration_min": 110,
+      "start_idx": 6567,
+      "end_idx": 6677
+    },
+    {
+      "timestamp": "2024-01-12 07:24:00",
+      "type": "cavitation",
+      "duration_min": 93,
+      "start_idx": 16284,
+      "end_idx": 16377
+    },
+    {
+      "timestamp": "2024-01-24 16:01:00",
+      "type": "electrical_fault",
+      "duration_min": 43,
+      "start_idx": 34081,
+      "end_idx": 34124
+    },
+    {
+      "timestamp": "2024-01-07 01:45:00",
+      "type": "electrical_fault",
+      "duration_min": 67,
+      "start_idx": 8745,
+      "end_idx": 8812
+    },
+    {
+      "timestamp": "2024-01-15 17:37:00",
+      "type": "bearing_wear",
+      "duration_min": 77,
+      "start_idx": 21217,
+      "end_idx": 21294
+    },
+    {
+      "timestamp": "2024-01-27 05:48:00",
+      "type": "seal_leak",
+      "duration_min": 135,
+      "start_idx": 37788,
+      "end_idx": 37923
+    },
+    {
+      "timestamp": "2024-01-11 05:12:00",
+      "type": "seal_leak",
+      "duration_min": 36,
+      "start_idx": 14712,
+      "end_idx": 14748
+    },
+    {
+      "timestamp": "2024-01-10 06:56:00",
+      "type": "electrical_fault",
+      "duration_min": 126,
+      "start_idx": 13376,
+      "end_idx": 13502
+    },
+    {
+      "timestamp": "2024-01-14 22:24:00",
+      "type": "partial_blockage",
+      "duration_min": 75,
+      "start_idx": 20064,
+      "end_idx": 20139
+    },
+    {
+      "timestamp": "2024-01-09 02:49:00",
+      "type": "seal_leak",
+      "duration_min": 93,
+      "start_idx": 11689,
+      "end_idx": 11782
+    },
+    {
+      "timestamp": "2024-01-23 00:32:00",
+      "type": "partial_blockage",
+      "duration_min": 39,
+      "start_idx": 31712,
+      "end_idx": 31751
+    },
+    {
+      "timestamp": "2024-01-19 01:27:00",
+      "type": "seal_leak",
+      "duration_min": 219,
+      "start_idx": 26007,
+      "end_idx": 26226
+    },
+    {
+      "timestamp": "2024-01-14 00:25:00",
+      "type": "partial_blockage",
+      "duration_min": 105,
+      "start_idx": 18745,
+      "end_idx": 18850
+    },
+    {
+      "timestamp": "2024-01-12 15:49:00",
+      "type": "electrical_fault",
+      "duration_min": 124,
+      "start_idx": 16789,
+      "end_idx": 16913
+    },
+    {
+      "timestamp": "2024-01-07 19:25:00",
+      "type": "bearing_wear",
+      "duration_min": 188,
+      "start_idx": 9805,
+      "end_idx": 9993
+    },
+    {
+      "timestamp": "2024-01-06 02:33:00",
+      "type": "electrical_fault",
+      "duration_min": 81,
+      "start_idx": 7353,
+      "end_idx": 7434
+    },
+    {
+      "timestamp": "2024-01-13 12:27:00",
+      "type": "bearing_wear",
+      "duration_min": 124,
+      "start_idx": 18027,
+      "end_idx": 18151
+    },
+    {
+      "timestamp": "2024-01-21 01:27:00",
+      "type": "seal_leak",
+      "duration_min": 157,
+      "start_idx": 28887,
+      "end_idx": 29044
+    },
+    {
+      "timestamp": "2024-01-09 06:28:00",
+      "type": "electrical_fault",
+      "duration_min": 224,
+      "start_idx": 11908,
+      "end_idx": 12132
+    },
+    {
+      "timestamp": "2024-01-11 15:08:00",
+      "type": "bearing_wear",
+      "duration_min": 70,
+      "start_idx": 15308,
+      "end_idx": 15378
+    },
+    {
+      "timestamp": "2024-01-11 10:15:00",
+      "type": "cavitation",
+      "duration_min": 134,
+      "start_idx": 15015,
+      "end_idx": 15149
+    },
+    {
+      "timestamp": "2024-01-14 09:19:00",
+      "type": "partial_blockage",
+      "duration_min": 120,
+      "start_idx": 19279,
+      "end_idx": 19399
+    },
+    {
+      "timestamp": "2024-01-16 22:14:00",
+      "type": "bearing_wear",
+      "duration_min": 179,
+      "start_idx": 22934,
+      "end_idx": 23113
+    },
+    {
+      "timestamp": "2024-01-14 19:55:00",
+      "type": "seal_leak",
+      "duration_min": 169,
+      "start_idx": 19915,
+      "end_idx": 20084
+    },
+    {
+      "timestamp": "2024-01-24 09:48:00",
+      "type": "electrical_fault",
+      "duration_min": 120,
+      "start_idx": 33708,
+      "end_idx": 33828
+    },
+    {
+      "timestamp": "2024-01-15 15:59:00",
+      "type": "electrical_fault",
+      "duration_min": 69,
+      "start_idx": 21119,
+      "end_idx": 21188
+    },
+    {
+      "timestamp": "2024-01-23 01:48:00",
+      "type": "electrical_fault",
+      "duration_min": 83,
+      "start_idx": 31788,
+      "end_idx": 31871
+    },
+    {
+      "timestamp": "2024-01-18 11:16:00",
+      "type": "partial_blockage",
+      "duration_min": 127,
+      "start_idx": 25156,
+      "end_idx": 25283
+    },
+    {
+      "timestamp": "2024-01-15 19:32:00",
+      "type": "bearing_wear",
+      "duration_min": 39,
+      "start_idx": 21332,
+      "end_idx": 21371
+    },
+    {
+      "timestamp": "2024-01-27 01:29:00",
+      "type": "bearing_wear",
+      "duration_min": 170,
+      "start_idx": 37529,
+      "end_idx": 37699
+    },
+    {
+      "timestamp": "2024-01-12 23:54:00",
+      "type": "seal_leak",
+      "duration_min": 227,
+      "start_idx": 17274,
+      "end_idx": 17501
+    },
+    {
+      "timestamp": "2024-01-17 12:45:00",
+      "type": "bearing_wear",
+      "duration_min": 216,
+      "start_idx": 23805,
+      "end_idx": 24021
+    },
+    {
+      "timestamp": "2024-01-23 09:58:00",
+      "type": "electrical_fault",
+      "duration_min": 86,
+      "start_idx": 32278,
+      "end_idx": 32364
+    },
+    {
+      "timestamp": "2024-01-22 06:56:00",
+      "type": "seal_leak",
+      "duration_min": 44,
+      "start_idx": 30656,
+      "end_idx": 30700
+    },
+    {
+      "timestamp": "2024-01-08 23:05:00",
+      "type": "cavitation",
+      "duration_min": 227,
+      "start_idx": 11465,
+      "end_idx": 11692
+    },
+    {
+      "timestamp": "2024-01-09 08:16:00",
+      "type": "cavitation",
+      "duration_min": 194,
+      "start_idx": 12016,
+      "end_idx": 12210
+    },
+    {
+      "timestamp": "2024-01-18 10:39:00",
+      "type": "seal_leak",
+      "duration_min": 173,
+      "start_idx": 25119,
+      "end_idx": 25292
+    },
+    {
+      "timestamp": "2024-01-25 09:35:00",
+      "type": "cavitation",
+      "duration_min": 221,
+      "start_idx": 35135,
+      "end_idx": 35356
+    },
+    {
+      "timestamp": "2024-01-23 15:07:00",
+      "type": "cavitation",
+      "duration_min": 58,
+      "start_idx": 32587,
+      "end_idx": 32645
+    },
+    {
+      "timestamp": "2024-01-23 08:36:00",
+      "type": "cavitation",
+      "duration_min": 177,
+      "start_idx": 32196,
+      "end_idx": 32373
+    },
+    {
+      "timestamp": "2024-01-06 09:24:00",
+      "type": "partial_blockage",
+      "duration_min": 224,
+      "start_idx": 7764,
+      "end_idx": 7988
+    },
+    {
+      "timestamp": "2024-01-13 06:15:00",
+      "type": "bearing_wear",
+      "duration_min": 135,
+      "start_idx": 17655,
+      "end_idx": 17790
+    },
+    {
+      "timestamp": "2024-01-22 14:43:00",
+      "type": "electrical_fault",
+      "duration_min": 63,
+      "start_idx": 31123,
+      "end_idx": 31186
+    },
+    {
+      "timestamp": "2024-01-06 18:56:00",
+      "type": "bearing_wear",
+      "duration_min": 139,
+      "start_idx": 8336,
+      "end_idx": 8475
+    },
+    {
+      "timestamp": "2024-01-15 02:44:00",
+      "type": "electrical_fault",
+      "duration_min": 228,
+      "start_idx": 20324,
+      "end_idx": 20552
+    },
+    {
+      "timestamp": "2024-01-14 11:21:00",
+      "type": "electrical_fault",
+      "duration_min": 77,
+      "start_idx": 19401,
+      "end_idx": 19478
+    },
+    {
+      "timestamp": "2024-01-22 23:41:00",
+      "type": "electrical_fault",
+      "duration_min": 157,
+      "start_idx": 31661,
+      "end_idx": 31818
+    },
+    {
+      "timestamp": "2024-01-25 13:35:00",
+      "type": "electrical_fault",
+      "duration_min": 225,
+      "start_idx": 35375,
+      "end_idx": 35600
+    },
+    {
+      "timestamp": "2024-01-11 20:59:00",
+      "type": "electrical_fault",
+      "duration_min": 238,
+      "start_idx": 15659,
+      "end_idx": 15897
+    },
+    {
+      "timestamp": "2024-01-18 10:49:00",
+      "type": "cavitation",
+      "duration_min": 108,
+      "start_idx": 25129,
+      "end_idx": 25237
+    },
+    {
+      "timestamp": "2024-01-15 15:53:00",
+      "type": "bearing_wear",
+      "duration_min": 136,
+      "start_idx": 21113,
+      "end_idx": 21249
+    },
+    {
+      "timestamp": "2024-01-25 05:24:00",
+      "type": "seal_leak",
+      "duration_min": 211,
+      "start_idx": 34884,
+      "end_idx": 35095
+    },
+    {
+      "timestamp": "2024-01-05 20:15:00",
+      "type": "cavitation",
+      "duration_min": 234,
+      "start_idx": 6975,
+      "end_idx": 7209
+    },
+    {
+      "timestamp": "2024-01-06 09:08:00",
+      "type": "partial_blockage",
+      "duration_min": 183,
+      "start_idx": 7748,
+      "end_idx": 7931
+    },
+    {
+      "timestamp": "2024-01-14 04:13:00",
+      "type": "partial_blockage",
+      "duration_min": 169,
+      "start_idx": 18973,
+      "end_idx": 19142
+    },
+    {
+      "timestamp": "2024-01-19 13:28:00",
+      "type": "bearing_wear",
+      "duration_min": 36,
+      "start_idx": 26728,
+      "end_idx": 26764
+    },
+    {
+      "timestamp": "2024-01-24 03:10:00",
+      "type": "bearing_wear",
+      "duration_min": 108,
+      "start_idx": 33310,
+      "end_idx": 33418
+    },
+    {
+      "timestamp": "2024-01-23 09:22:00",
+      "type": "cavitation",
+      "duration_min": 148,
+      "start_idx": 32242,
+      "end_idx": 32390
+    },
+    {
+      "timestamp": "2024-01-09 01:31:00",
+      "type": "cavitation",
+      "duration_min": 95,
+      "start_idx": 11611,
+      "end_idx": 11706
+    },
+    {
+      "timestamp": "2024-01-21 19:42:00",
+      "type": "seal_leak",
+      "duration_min": 54,
+      "start_idx": 29982,
+      "end_idx": 30036
+    },
+    {
+      "timestamp": "2024-01-12 21:56:00",
+      "type": "cavitation",
+      "duration_min": 52,
+      "start_idx": 17156,
+      "end_idx": 17208
+    },
+    {
+      "timestamp": "2024-01-09 22:09:00",
+      "type": "cavitation",
+      "duration_min": 62,
+      "start_idx": 12849,
+      "end_idx": 12911
+    },
+    {
+      "timestamp": "2024-01-27 16:19:00",
+      "type": "seal_leak",
+      "duration_min": 125,
+      "start_idx": 38419,
+      "end_idx": 38544
+    },
+    {
+      "timestamp": "2024-01-16 01:56:00",
+      "type": "bearing_wear",
+      "duration_min": 135,
+      "start_idx": 21716,
+      "end_idx": 21851
+    },
+    {
+      "timestamp": "2024-01-05 07:56:00",
+      "type": "bearing_wear",
+      "duration_min": 128,
+      "start_idx": 6236,
+      "end_idx": 6364
+    },
+    {
+      "timestamp": "2024-01-15 06:40:00",
+      "type": "bearing_wear",
+      "duration_min": 72,
+      "start_idx": 20560,
+      "end_idx": 20632
+    },
+    {
+      "timestamp": "2024-01-21 05:01:00",
+      "type": "electrical_fault",
+      "duration_min": 42,
+      "start_idx": 29101,
+      "end_idx": 29143
+    },
+    {
+      "timestamp": "2024-01-16 15:17:00",
+      "type": "partial_blockage",
+      "duration_min": 63,
+      "start_idx": 22517,
+      "end_idx": 22580
+    },
+    {
+      "timestamp": "2024-01-21 20:33:00",
+      "type": "seal_leak",
+      "duration_min": 160,
+      "start_idx": 30033,
+      "end_idx": 30193
+    },
+    {
+      "timestamp": "2024-01-11 17:40:00",
+      "type": "bearing_wear",
+      "duration_min": 78,
+      "start_idx": 15460,
+      "end_idx": 15538
+    },
+    {
+      "timestamp": "2024-01-23 09:35:00",
+      "type": "bearing_wear",
+      "duration_min": 201,
+      "start_idx": 32255,
+      "end_idx": 32456
+    },
+    {
+      "timestamp": "2024-01-12 07:34:00",
+      "type": "electrical_fault",
+      "duration_min": 74,
+      "start_idx": 16294,
+      "end_idx": 16368
+    },
+    {
+      "timestamp": "2024-01-22 01:58:00",
+      "type": "bearing_wear",
+      "duration_min": 90,
+      "start_idx": 30358,
+      "end_idx": 30448
+    },
+    {
+      "timestamp": "2024-01-17 22:04:00",
+      "type": "partial_blockage",
+      "duration_min": 183,
+      "start_idx": 24364,
+      "end_idx": 24547
+    },
+    {
+      "timestamp": "2024-01-17 13:57:00",
+      "type": "electrical_fault",
+      "duration_min": 96,
+      "start_idx": 23877,
+      "end_idx": 23973
+    },
+    {
+      "timestamp": "2024-01-27 18:00:00",
+      "type": "cavitation",
+      "duration_min": 179,
+      "start_idx": 38520,
+      "end_idx": 38699
+    },
+    {
+      "timestamp": "2024-01-09 12:34:00",
+      "type": "seal_leak",
+      "duration_min": 214,
+      "start_idx": 12274,
+      "end_idx": 12488
+    },
+    {
+      "timestamp": "2024-01-13 01:12:00",
+      "type": "seal_leak",
+      "duration_min": 84,
+      "start_idx": 17352,
+      "end_idx": 17436
+    },
+    {
+      "timestamp": "2024-01-22 20:32:00",
+      "type": "partial_blockage",
+      "duration_min": 45,
+      "start_idx": 31472,
+      "end_idx": 31517
+    },
+    {
+      "timestamp": "2024-01-04 07:00:00",
+      "type": "cavitation",
+      "duration_min": 159,
+      "start_idx": 4740,
+      "end_idx": 4899
+    },
+    {
+      "timestamp": "2024-01-23 15:36:00",
+      "type": "seal_leak",
+      "duration_min": 170,
+      "start_idx": 32616,
+      "end_idx": 32786
+    },
+    {
+      "timestamp": "2024-01-18 23:46:00",
+      "type": "cavitation",
+      "duration_min": 120,
+      "start_idx": 25906,
+      "end_idx": 26026
+    },
+    {
+      "timestamp": "2024-01-17 11:57:00",
+      "type": "bearing_wear",
+      "duration_min": 71,
+      "start_idx": 23757,
+      "end_idx": 23828
+    },
+    {
+      "timestamp": "2024-01-15 07:46:00",
+      "type": "bearing_wear",
+      "duration_min": 155,
+      "start_idx": 20626,
+      "end_idx": 20781
+    },
+    {
+      "timestamp": "2024-01-25 00:27:00",
+      "type": "cavitation",
+      "duration_min": 127,
+      "start_idx": 34587,
+      "end_idx": 34714
+    },
+    {
+      "timestamp": "2024-01-22 22:28:00",
+      "type": "cavitation",
+      "duration_min": 172,
+      "start_idx": 31588,
+      "end_idx": 31760
+    },
+    {
+      "timestamp": "2024-01-25 23:37:00",
+      "type": "seal_leak",
+      "duration_min": 176,
+      "start_idx": 35977,
+      "end_idx": 36153
+    },
+    {
+      "timestamp": "2024-01-27 09:23:00",
+      "type": "partial_blockage",
+      "duration_min": 109,
+      "start_idx": 38003,
+      "end_idx": 38112
+    },
+    {
+      "timestamp": "2024-01-10 12:15:00",
+      "type": "partial_blockage",
+      "duration_min": 108,
+      "start_idx": 13695,
+      "end_idx": 13803
+    },
+    {
+      "timestamp": "2024-01-15 14:55:00",
+      "type": "electrical_fault",
+      "duration_min": 160,
+      "start_idx": 21055,
+      "end_idx": 21215
+    },
+    {
+      "timestamp": "2024-01-07 02:41:00",
+      "type": "cavitation",
+      "duration_min": 123,
+      "start_idx": 8801,
+      "end_idx": 8924
+    },
+    {
+      "timestamp": "2024-01-18 17:09:00",
+      "type": "cavitation",
+      "duration_min": 181,
+      "start_idx": 25509,
+      "end_idx": 25690
+    },
+    {
+      "timestamp": "2024-01-08 18:13:00",
+      "type": "seal_leak",
+      "duration_min": 161,
+      "start_idx": 11173,
+      "end_idx": 11334
+    },
+    {
+      "timestamp": "2024-01-21 23:01:00",
+      "type": "cavitation",
+      "duration_min": 173,
+      "start_idx": 30181,
+      "end_idx": 30354
+    },
+    {
+      "timestamp": "2024-01-17 12:20:00",
+      "type": "electrical_fault",
+      "duration_min": 228,
+      "start_idx": 23780,
+      "end_idx": 24008
+    },
+    {
+      "timestamp": "2024-01-09 02:11:00",
+      "type": "seal_leak",
+      "duration_min": 174,
+      "start_idx": 11651,
+      "end_idx": 11825
+    },
+    {
+      "timestamp": "2024-01-07 07:17:00",
+      "type": "bearing_wear",
+      "duration_min": 87,
+      "start_idx": 9077,
+      "end_idx": 9164
+    },
+    {
+      "timestamp": "2024-01-17 17:35:00",
+      "type": "electrical_fault",
+      "duration_min": 40,
+      "start_idx": 24095,
+      "end_idx": 24135
+    },
+    {
+      "timestamp": "2024-01-04 22:12:00",
+      "type": "seal_leak",
+      "duration_min": 189,
+      "start_idx": 5652,
+      "end_idx": 5841
+    },
+    {
+      "timestamp": "2024-01-23 16:07:00",
+      "type": "electrical_fault",
+      "duration_min": 94,
+      "start_idx": 32647,
+      "end_idx": 32741
+    },
+    {
+      "timestamp": "2024-01-14 23:56:00",
+      "type": "seal_leak",
+      "duration_min": 121,
+      "start_idx": 20156,
+      "end_idx": 20277
+    },
+    {
+      "timestamp": "2024-01-10 12:36:00",
+      "type": "electrical_fault",
+      "duration_min": 230,
+      "start_idx": 13716,
+      "end_idx": 13946
+    },
+    {
+      "timestamp": "2024-01-10 06:57:00",
+      "type": "partial_blockage",
+      "duration_min": 74,
+      "start_idx": 13377,
+      "end_idx": 13451
+    },
+    {
+      "timestamp": "2024-01-22 22:27:00",
+      "type": "partial_blockage",
+      "duration_min": 63,
+      "start_idx": 31587,
+      "end_idx": 31650
+    },
+    {
+      "timestamp": "2024-01-24 02:56:00",
+      "type": "electrical_fault",
+      "duration_min": 32,
+      "start_idx": 33296,
+      "end_idx": 33328
+    },
+    {
+      "timestamp": "2024-01-09 10:13:00",
+      "type": "electrical_fault",
+      "duration_min": 43,
+      "start_idx": 12133,
+      "end_idx": 12176
+    },
+    {
+      "timestamp": "2024-01-04 03:26:00",
+      "type": "bearing_wear",
+      "duration_min": 34,
+      "start_idx": 4526,
+      "end_idx": 4560
+    },
+    {
+      "timestamp": "2024-01-10 17:38:00",
+      "type": "partial_blockage",
+      "duration_min": 55,
+      "start_idx": 14018,
+      "end_idx": 14073
+    },
+    {
+      "timestamp": "2024-01-08 01:07:00",
+      "type": "cavitation",
+      "duration_min": 128,
+      "start_idx": 10147,
+      "end_idx": 10275
+    },
+    {
+      "timestamp": "2024-01-07 11:46:00",
+      "type": "cavitation",
+      "duration_min": 78,
+      "start_idx": 9346,
+      "end_idx": 9424
+    },
+    {
+      "timestamp": "2024-01-15 14:40:00",
+      "type": "cavitation",
+      "duration_min": 157,
+      "start_idx": 21040,
+      "end_idx": 21197
+    },
+    {
+      "timestamp": "2024-01-20 07:26:00",
+      "type": "partial_blockage",
+      "duration_min": 127,
+      "start_idx": 27806,
+      "end_idx": 27933
+    },
+    {
+      "timestamp": "2024-01-20 17:46:00",
+      "type": "electrical_fault",
+      "duration_min": 46,
+      "start_idx": 28426,
+      "end_idx": 28472
+    },
+    {
+      "timestamp": "2024-01-25 12:56:00",
+      "type": "partial_blockage",
+      "duration_min": 218,
+      "start_idx": 35336,
+      "end_idx": 35554
+    },
+    {
+      "timestamp": "2024-01-21 05:07:00",
+      "type": "bearing_wear",
+      "duration_min": 30,
+      "start_idx": 29107,
+      "end_idx": 29137
+    },
+    {
+      "timestamp": "2024-01-21 11:08:00",
+      "type": "partial_blockage",
+      "duration_min": 172,
+      "start_idx": 29468,
+      "end_idx": 29640
+    },
+    {
+      "timestamp": "2024-01-06 20:59:00",
+      "type": "bearing_wear",
+      "duration_min": 86,
+      "start_idx": 8459,
+      "end_idx": 8545
+    },
+    {
+      "timestamp": "2024-01-06 11:22:00",
+      "type": "partial_blockage",
+      "duration_min": 99,
+      "start_idx": 7882,
+      "end_idx": 7981
+    },
+    {
+      "timestamp": "2024-01-24 13:28:00",
+      "type": "seal_leak",
+      "duration_min": 210,
+      "start_idx": 33928,
+      "end_idx": 34138
+    },
+    {
+      "timestamp": "2024-01-12 18:38:00",
+      "type": "bearing_wear",
+      "duration_min": 179,
+      "start_idx": 16958,
+      "end_idx": 17137
+    },
+    {
+      "timestamp": "2024-01-04 17:04:00",
+      "type": "partial_blockage",
+      "duration_min": 103,
+      "start_idx": 5344,
+      "end_idx": 5447
+    },
+    {
+      "timestamp": "2024-01-20 06:20:00",
+      "type": "bearing_wear",
+      "duration_min": 34,
+      "start_idx": 27740,
+      "end_idx": 27774
+    },
+    {
+      "timestamp": "2024-01-12 10:54:00",
+      "type": "partial_blockage",
+      "duration_min": 186,
+      "start_idx": 16494,
+      "end_idx": 16680
+    },
+    {
+      "timestamp": "2024-01-09 20:25:00",
+      "type": "bearing_wear",
+      "duration_min": 143,
+      "start_idx": 12745,
+      "end_idx": 12888
+    },
+    {
+      "timestamp": "2024-01-15 03:53:00",
+      "type": "partial_blockage",
+      "duration_min": 96,
+      "start_idx": 20393,
+      "end_idx": 20489
+    },
+    {
+      "timestamp": "2024-01-15 10:02:00",
+      "type": "seal_leak",
+      "duration_min": 42,
+      "start_idx": 20762,
+      "end_idx": 20804
+    },
+    {
+      "timestamp": "2024-01-12 16:09:00",
+      "type": "seal_leak",
+      "duration_min": 59,
+      "start_idx": 16809,
+      "end_idx": 16868
+    },
+    {
+      "timestamp": "2024-01-06 00:32:00",
+      "type": "electrical_fault",
+      "duration_min": 224,
+      "start_idx": 7232,
+      "end_idx": 7456
+    },
+    {
+      "timestamp": "2024-01-23 22:09:00",
+      "type": "electrical_fault",
+      "duration_min": 172,
+      "start_idx": 33009,
+      "end_idx": 33181
+    },
+    {
+      "timestamp": "2024-01-09 07:37:00",
+      "type": "cavitation",
+      "duration_min": 120,
+      "start_idx": 11977,
+      "end_idx": 12097
+    },
+    {
+      "timestamp": "2024-01-18 17:40:00",
+      "type": "bearing_wear",
+      "duration_min": 194,
+      "start_idx": 25540,
+      "end_idx": 25734
+    },
+    {
+      "timestamp": "2024-01-17 12:38:00",
+      "type": "partial_blockage",
+      "duration_min": 96,
+      "start_idx": 23798,
+      "end_idx": 23894
+    },
+    {
+      "timestamp": "2024-01-07 09:34:00",
+      "type": "partial_blockage",
+      "duration_min": 167,
+      "start_idx": 9214,
+      "end_idx": 9381
+    },
+    {
+      "timestamp": "2024-01-06 12:29:00",
+      "type": "bearing_wear",
+      "duration_min": 165,
+      "start_idx": 7949,
+      "end_idx": 8114
+    },
+    {
+      "timestamp": "2024-01-27 23:58:00",
+      "type": "electrical_fault",
+      "duration_min": 156,
+      "start_idx": 38878,
+      "end_idx": 39034
+    },
+    {
+      "timestamp": "2024-01-15 03:38:00",
+      "type": "electrical_fault",
+      "duration_min": 182,
+      "start_idx": 20378,
+      "end_idx": 20560
+    },
+    {
+      "timestamp": "2024-01-13 21:09:00",
+      "type": "partial_blockage",
+      "duration_min": 148,
+      "start_idx": 18549,
+      "end_idx": 18697
+    },
+    {
+      "timestamp": "2024-01-10 11:05:00",
+      "type": "partial_blockage",
+      "duration_min": 208,
+      "start_idx": 13625,
+      "end_idx": 13833
+    },
+    {
+      "timestamp": "2024-01-06 12:57:00",
+      "type": "partial_blockage",
+      "duration_min": 126,
+      "start_idx": 7977,
+      "end_idx": 8103
+    },
+    {
+      "timestamp": "2024-01-19 00:00:00",
+      "type": "partial_blockage",
+      "duration_min": 224,
+      "start_idx": 25920,
+      "end_idx": 26144
+    },
+    {
+      "timestamp": "2024-01-09 09:44:00",
+      "type": "electrical_fault",
+      "duration_min": 109,
+      "start_idx": 12104,
+      "end_idx": 12213
+    },
+    {
+      "timestamp": "2024-01-04 07:36:00",
+      "type": "bearing_wear",
+      "duration_min": 182,
+      "start_idx": 4776,
+      "end_idx": 4958
+    },
+    {
+      "timestamp": "2024-01-23 20:53:00",
+      "type": "bearing_wear",
+      "duration_min": 49,
+      "start_idx": 32933,
+      "end_idx": 32982
+    },
+    {
+      "timestamp": "2024-01-20 06:25:00",
+      "type": "electrical_fault",
+      "duration_min": 63,
+      "start_idx": 27745,
+      "end_idx": 27808
+    },
+    {
+      "timestamp": "2024-01-25 13:35:00",
+      "type": "partial_blockage",
+      "duration_min": 172,
+      "start_idx": 35375,
+      "end_idx": 35547
+    },
+    {
+      "timestamp": "2024-01-08 20:54:00",
+      "type": "bearing_wear",
+      "duration_min": 103,
+      "start_idx": 11334,
+      "end_idx": 11437
+    },
+    {
+      "timestamp": "2024-01-22 17:44:00",
+      "type": "bearing_wear",
+      "duration_min": 166,
+      "start_idx": 31304,
+      "end_idx": 31470
+    },
+    {
+      "timestamp": "2024-01-23 15:17:00",
+      "type": "electrical_fault",
+      "duration_min": 102,
+      "start_idx": 32597,
+      "end_idx": 32699
+    },
+    {
+      "timestamp": "2024-01-26 05:11:00",
+      "type": "electrical_fault",
+      "duration_min": 139,
+      "start_idx": 36311,
+      "end_idx": 36450
+    },
+    {
+      "timestamp": "2024-01-23 05:36:00",
+      "type": "cavitation",
+      "duration_min": 57,
+      "start_idx": 32016,
+      "end_idx": 32073
+    },
+    {
+      "timestamp": "2024-01-21 05:47:00",
+      "type": "cavitation",
+      "duration_min": 56,
+      "start_idx": 29147,
+      "end_idx": 29203
+    },
+    {
+      "timestamp": "2024-01-06 20:11:00",
+      "type": "seal_leak",
+      "duration_min": 202,
+      "start_idx": 8411,
+      "end_idx": 8613
+    },
+    {
+      "timestamp": "2024-01-06 21:58:00",
+      "type": "electrical_fault",
+      "duration_min": 139,
+      "start_idx": 8518,
+      "end_idx": 8657
+    },
+    {
+      "timestamp": "2024-01-24 19:20:00",
+      "type": "electrical_fault",
+      "duration_min": 189,
+      "start_idx": 34280,
+      "end_idx": 34469
+    },
+    {
+      "timestamp": "2024-01-20 10:36:00",
+      "type": "seal_leak",
+      "duration_min": 166,
+      "start_idx": 27996,
+      "end_idx": 28162
+    },
+    {
+      "timestamp": "2024-01-05 09:19:00",
+      "type": "seal_leak",
+      "duration_min": 185,
+      "start_idx": 6319,
+      "end_idx": 6504
+    },
+    {
+      "timestamp": "2024-01-14 23:28:00",
+      "type": "partial_blockage",
+      "duration_min": 131,
+      "start_idx": 20128,
+      "end_idx": 20259
+    },
+    {
+      "timestamp": "2024-01-23 04:06:00",
+      "type": "cavitation",
+      "duration_min": 58,
+      "start_idx": 31926,
+      "end_idx": 31984
+    },
+    {
+      "timestamp": "2024-01-10 20:13:00",
+      "type": "partial_blockage",
+      "duration_min": 102,
+      "start_idx": 14173,
+      "end_idx": 14275
+    },
+    {
+      "timestamp": "2024-01-23 13:25:00",
+      "type": "cavitation",
+      "duration_min": 32,
+      "start_idx": 32485,
+      "end_idx": 32517
+    },
+    {
+      "timestamp": "2024-01-09 09:23:00",
+      "type": "cavitation",
+      "duration_min": 211,
+      "start_idx": 12083,
+      "end_idx": 12294
+    },
+    {
+      "timestamp": "2024-01-11 05:16:00",
+      "type": "bearing_wear",
+      "duration_min": 166,
+      "start_idx": 14716,
+      "end_idx": 14882
+    },
+    {
+      "timestamp": "2024-01-16 22:28:00",
+      "type": "cavitation",
+      "duration_min": 209,
+      "start_idx": 22948,
+      "end_idx": 23157
+    },
+    {
+      "timestamp": "2024-01-07 18:24:00",
+      "type": "electrical_fault",
+      "duration_min": 107,
+      "start_idx": 9744,
+      "end_idx": 9851
+    },
+    {
+      "timestamp": "2024-01-27 12:33:00",
+      "type": "bearing_wear",
+      "duration_min": 90,
+      "start_idx": 38193,
+      "end_idx": 38283
+    },
+    {
+      "timestamp": "2024-01-19 14:28:00",
+      "type": "seal_leak",
+      "duration_min": 181,
+      "start_idx": 26788,
+      "end_idx": 26969
+    },
+    {
+      "timestamp": "2024-01-09 18:42:00",
+      "type": "bearing_wear",
+      "duration_min": 233,
+      "start_idx": 12642,
+      "end_idx": 12875
+    },
+    {
+      "timestamp": "2024-01-14 19:55:00",
+      "type": "seal_leak",
+      "duration_min": 147,
+      "start_idx": 19915,
+      "end_idx": 20062
+    },
+    {
+      "timestamp": "2024-01-24 20:45:00",
+      "type": "electrical_fault",
+      "duration_min": 131,
+      "start_idx": 34365,
+      "end_idx": 34496
+    },
+    {
+      "timestamp": "2024-01-05 09:17:00",
+      "type": "partial_blockage",
+      "duration_min": 52,
+      "start_idx": 6317,
+      "end_idx": 6369
+    },
+    {
+      "timestamp": "2024-01-07 10:46:00",
+      "type": "cavitation",
+      "duration_min": 184,
+      "start_idx": 9286,
+      "end_idx": 9470
+    },
+    {
+      "timestamp": "2024-01-18 10:14:00",
+      "type": "partial_blockage",
+      "duration_min": 126,
+      "start_idx": 25094,
+      "end_idx": 25220
+    },
+    {
+      "timestamp": "2024-01-26 12:03:00",
+      "type": "partial_blockage",
+      "duration_min": 215,
+      "start_idx": 36723,
+      "end_idx": 36938
+    },
+    {
+      "timestamp": "2024-01-22 14:32:00",
+      "type": "partial_blockage",
+      "duration_min": 123,
+      "start_idx": 31112,
+      "end_idx": 31235
+    },
+    {
+      "timestamp": "2024-01-08 08:47:00",
+      "type": "bearing_wear",
+      "duration_min": 68,
+      "start_idx": 10607,
+      "end_idx": 10675
+    },
+    {
+      "timestamp": "2024-01-26 18:16:00",
+      "type": "electrical_fault",
+      "duration_min": 128,
+      "start_idx": 37096,
+      "end_idx": 37224
+    },
+    {
+      "timestamp": "2024-01-27 15:31:00",
+      "type": "partial_blockage",
+      "duration_min": 212,
+      "start_idx": 38371,
+      "end_idx": 38583
+    },
+    {
+      "timestamp": "2024-01-11 20:57:00",
+      "type": "partial_blockage",
+      "duration_min": 208,
+      "start_idx": 15657,
+      "end_idx": 15865
+    },
+    {
+      "timestamp": "2024-01-21 23:54:00",
+      "type": "partial_blockage",
+      "duration_min": 42,
+      "start_idx": 30234,
+      "end_idx": 30276
+    },
+    {
+      "timestamp": "2024-01-04 08:41:00",
+      "type": "seal_leak",
+      "duration_min": 199,
+      "start_idx": 4841,
+      "end_idx": 5040
+    },
+    {
+      "timestamp": "2024-01-12 21:37:00",
+      "type": "seal_leak",
+      "duration_min": 72,
+      "start_idx": 17137,
+      "end_idx": 17209
+    },
+    {
+      "timestamp": "2024-01-06 22:50:00",
+      "type": "seal_leak",
+      "duration_min": 238,
+      "start_idx": 8570,
+      "end_idx": 8808
+    },
+    {
+      "timestamp": "2024-01-20 20:29:00",
+      "type": "cavitation",
+      "duration_min": 113,
+      "start_idx": 28589,
+      "end_idx": 28702
+    },
+    {
+      "timestamp": "2024-01-20 21:34:00",
+      "type": "cavitation",
+      "duration_min": 119,
+      "start_idx": 28654,
+      "end_idx": 28773
+    },
+    {
+      "timestamp": "2024-01-24 23:59:00",
+      "type": "seal_leak",
+      "duration_min": 88,
+      "start_idx": 34559,
+      "end_idx": 34647
+    },
+    {
+      "timestamp": "2024-01-17 09:06:00",
+      "type": "seal_leak",
+      "duration_min": 95,
+      "start_idx": 23586,
+      "end_idx": 23681
+    },
+    {
+      "timestamp": "2024-01-18 05:07:00",
+      "type": "electrical_fault",
+      "duration_min": 197,
+      "start_idx": 24787,
+      "end_idx": 24984
+    },
+    {
+      "timestamp": "2024-01-20 21:59:00",
+      "type": "bearing_wear",
+      "duration_min": 214,
+      "start_idx": 28679,
+      "end_idx": 28893
+    },
+    {
+      "timestamp": "2024-01-16 18:35:00",
+      "type": "bearing_wear",
+      "duration_min": 40,
+      "start_idx": 22715,
+      "end_idx": 22755
+    },
+    {
+      "timestamp": "2024-01-13 18:50:00",
+      "type": "partial_blockage",
+      "duration_min": 33,
+      "start_idx": 18410,
+      "end_idx": 18443
+    },
+    {
+      "timestamp": "2024-01-18 01:32:00",
+      "type": "electrical_fault",
+      "duration_min": 62,
+      "start_idx": 24572,
+      "end_idx": 24634
+    },
+    {
+      "timestamp": "2024-01-23 06:58:00",
+      "type": "cavitation",
+      "duration_min": 116,
+      "start_idx": 32098,
+      "end_idx": 32214
+    },
+    {
+      "timestamp": "2024-01-17 10:46:00",
+      "type": "bearing_wear",
+      "duration_min": 115,
+      "start_idx": 23686,
+      "end_idx": 23801
+    },
+    {
+      "timestamp": "2024-01-06 18:07:00",
+      "type": "cavitation",
+      "duration_min": 167,
+      "start_idx": 8287,
+      "end_idx": 8454
+    },
+    {
+      "timestamp": "2024-01-04 04:44:00",
+      "type": "partial_blockage",
+      "duration_min": 135,
+      "start_idx": 4604,
+      "end_idx": 4739
+    },
+    {
+      "timestamp": "2024-01-11 16:50:00",
+      "type": "seal_leak",
+      "duration_min": 189,
+      "start_idx": 15410,
+      "end_idx": 15599
+    },
+    {
+      "timestamp": "2024-01-13 23:35:00",
+      "type": "partial_blockage",
+      "duration_min": 122,
+      "start_idx": 18695,
+      "end_idx": 18817
+    },
+    {
+      "timestamp": "2024-01-13 07:14:00",
+      "type": "bearing_wear",
+      "duration_min": 138,
+      "start_idx": 17714,
+      "end_idx": 17852
+    },
+    {
+      "timestamp": "2024-01-26 18:06:00",
+      "type": "bearing_wear",
+      "duration_min": 97,
+      "start_idx": 37086,
+      "end_idx": 37183
+    },
+    {
+      "timestamp": "2024-01-19 04:27:00",
+      "type": "cavitation",
+      "duration_min": 127,
+      "start_idx": 26187,
+      "end_idx": 26314
+    },
+    {
+      "timestamp": "2024-01-15 00:22:00",
+      "type": "seal_leak",
+      "duration_min": 199,
+      "start_idx": 20182,
+      "end_idx": 20381
+    },
+    {
+      "timestamp": "2024-01-07 20:32:00",
+      "type": "cavitation",
+      "duration_min": 119,
+      "start_idx": 9872,
+      "end_idx": 9991
+    },
+    {
+      "timestamp": "2024-01-22 21:25:00",
+      "type": "electrical_fault",
+      "duration_min": 148,
+      "start_idx": 31525,
+      "end_idx": 31673
+    },
+    {
+      "timestamp": "2024-01-14 01:42:00",
+      "type": "cavitation",
+      "duration_min": 167,
+      "start_idx": 18822,
+      "end_idx": 18989
+    },
+    {
+      "timestamp": "2024-01-07 01:57:00",
+      "type": "seal_leak",
+      "duration_min": 219,
+      "start_idx": 8757,
+      "end_idx": 8976
+    },
+    {
+      "timestamp": "2024-01-13 03:31:00",
+      "type": "cavitation",
+      "duration_min": 132,
+      "start_idx": 17491,
+      "end_idx": 17623
+    },
+    {
+      "timestamp": "2024-01-26 09:09:00",
+      "type": "partial_blockage",
+      "duration_min": 63,
+      "start_idx": 36549,
+      "end_idx": 36612
+    },
+    {
+      "timestamp": "2024-01-22 19:39:00",
+      "type": "partial_blockage",
+      "duration_min": 57,
+      "start_idx": 31419,
+      "end_idx": 31476
+    },
+    {
+      "timestamp": "2024-01-26 21:58:00",
+      "type": "electrical_fault",
+      "duration_min": 180,
+      "start_idx": 37318,
+      "end_idx": 37498
+    },
+    {
+      "timestamp": "2024-01-24 22:42:00",
+      "type": "seal_leak",
+      "duration_min": 130,
+      "start_idx": 34482,
+      "end_idx": 34612
+    },
+    {
+      "timestamp": "2024-01-15 02:01:00",
+      "type": "electrical_fault",
+      "duration_min": 194,
+      "start_idx": 20281,
+      "end_idx": 20475
+    },
+    {
+      "timestamp": "2024-01-27 01:50:00",
+      "type": "partial_blockage",
+      "duration_min": 91,
+      "start_idx": 37550,
+      "end_idx": 37641
+    },
+    {
+      "timestamp": "2024-01-14 22:42:00",
+      "type": "seal_leak",
+      "duration_min": 232,
+      "start_idx": 20082,
+      "end_idx": 20314
+    },
+    {
+      "timestamp": "2024-01-20 09:25:00",
+      "type": "partial_blockage",
+      "duration_min": 158,
+      "start_idx": 27925,
+      "end_idx": 28083
+    },
+    {
+      "timestamp": "2024-01-27 16:24:00",
+      "type": "seal_leak",
+      "duration_min": 184,
+      "start_idx": 38424,
+      "end_idx": 38608
+    },
+    {
+      "timestamp": "2024-01-27 01:42:00",
+      "type": "bearing_wear",
+      "duration_min": 86,
+      "start_idx": 37542,
+      "end_idx": 37628
+    },
+    {
+      "timestamp": "2024-01-08 08:13:00",
+      "type": "bearing_wear",
+      "duration_min": 57,
+      "start_idx": 10573,
+      "end_idx": 10630
+    },
+    {
+      "timestamp": "2024-01-07 11:16:00",
+      "type": "partial_blockage",
+      "duration_min": 41,
+      "start_idx": 9316,
+      "end_idx": 9357
+    },
+    {
+      "timestamp": "2024-01-22 12:42:00",
+      "type": "bearing_wear",
+      "duration_min": 33,
+      "start_idx": 31002,
+      "end_idx": 31035
+    },
+    {
+      "timestamp": "2024-01-22 17:51:00",
+      "type": "seal_leak",
+      "duration_min": 96,
+      "start_idx": 31311,
+      "end_idx": 31407
+    },
+    {
+      "timestamp": "2024-01-23 02:43:00",
+      "type": "bearing_wear",
+      "duration_min": 100,
+      "start_idx": 31843,
+      "end_idx": 31943
+    },
+    {
+      "timestamp": "2024-01-09 02:22:00",
+      "type": "cavitation",
+      "duration_min": 100,
+      "start_idx": 11662,
+      "end_idx": 11762
+    },
+    {
+      "timestamp": "2024-01-16 09:22:00",
+      "type": "bearing_wear",
+      "duration_min": 78,
+      "start_idx": 22162,
+      "end_idx": 22240
+    },
+    {
+      "timestamp": "2024-01-13 11:31:00",
+      "type": "cavitation",
+      "duration_min": 164,
+      "start_idx": 17971,
+      "end_idx": 18135
+    },
+    {
+      "timestamp": "2024-01-21 22:07:00",
+      "type": "electrical_fault",
+      "duration_min": 46,
+      "start_idx": 30127,
+      "end_idx": 30173
+    },
+    {
+      "timestamp": "2024-01-15 06:14:00",
+      "type": "cavitation",
+      "duration_min": 139,
+      "start_idx": 20534,
+      "end_idx": 20673
+    },
+    {
+      "timestamp": "2024-01-04 13:18:00",
+      "type": "electrical_fault",
+      "duration_min": 218,
+      "start_idx": 5118,
+      "end_idx": 5336
+    },
+    {
+      "timestamp": "2024-01-17 05:03:00",
+      "type": "electrical_fault",
+      "duration_min": 192,
+      "start_idx": 23343,
+      "end_idx": 23535
+    },
+    {
+      "timestamp": "2024-01-05 18:50:00",
+      "type": "seal_leak",
+      "duration_min": 102,
+      "start_idx": 6890,
+      "end_idx": 6992
+    },
+    {
+      "timestamp": "2024-01-16 18:42:00",
+      "type": "partial_blockage",
+      "duration_min": 66,
+      "start_idx": 22722,
+      "end_idx": 22788
+    },
+    {
+      "timestamp": "2024-01-18 16:48:00",
+      "type": "bearing_wear",
+      "duration_min": 163,
+      "start_idx": 25488,
+      "end_idx": 25651
+    },
+    {
+      "timestamp": "2024-01-18 03:33:00",
+      "type": "bearing_wear",
+      "duration_min": 123,
+      "start_idx": 24693,
+      "end_idx": 24816
+    },
+    {
+      "timestamp": "2024-01-23 06:08:00",
+      "type": "cavitation",
+      "duration_min": 210,
+      "start_idx": 32048,
+      "end_idx": 32258
+    },
+    {
+      "timestamp": "2024-01-27 16:54:00",
+      "type": "seal_leak",
+      "duration_min": 134,
+      "start_idx": 38454,
+      "end_idx": 38588
+    },
+    {
+      "timestamp": "2024-01-22 15:52:00",
+      "type": "bearing_wear",
+      "duration_min": 45,
+      "start_idx": 31192,
+      "end_idx": 31237
+    },
+    {
+      "timestamp": "2024-01-09 13:46:00",
+      "type": "seal_leak",
+      "duration_min": 71,
+      "start_idx": 12346,
+      "end_idx": 12417
+    },
+    {
+      "timestamp": "2024-01-16 10:32:00",
+      "type": "bearing_wear",
+      "duration_min": 168,
+      "start_idx": 22232,
+      "end_idx": 22400
+    },
+    {
+      "timestamp": "2024-01-26 16:20:00",
+      "type": "electrical_fault",
+      "duration_min": 133,
+      "start_idx": 36980,
+      "end_idx": 37113
+    },
+    {
+      "timestamp": "2024-01-07 10:37:00",
+      "type": "cavitation",
+      "duration_min": 197,
+      "start_idx": 9277,
+      "end_idx": 9474
+    },
+    {
+      "timestamp": "2024-01-26 08:47:00",
+      "type": "partial_blockage",
+      "duration_min": 230,
+      "start_idx": 36527,
+      "end_idx": 36757
+    },
+    {
+      "timestamp": "2024-01-23 18:52:00",
+      "type": "electrical_fault",
+      "duration_min": 178,
+      "start_idx": 32812,
+      "end_idx": 32990
+    },
+    {
+      "timestamp": "2024-01-24 04:49:00",
+      "type": "electrical_fault",
+      "duration_min": 142,
+      "start_idx": 33409,
+      "end_idx": 33551
+    },
+    {
+      "timestamp": "2024-01-16 20:56:00",
+      "type": "cavitation",
+      "duration_min": 90,
+      "start_idx": 22856,
+      "end_idx": 22946
+    },
+    {
+      "timestamp": "2024-01-16 04:30:00",
+      "type": "cavitation",
+      "duration_min": 82,
+      "start_idx": 21870,
+      "end_idx": 21952
+    },
+    {
+      "timestamp": "2024-01-19 10:39:00",
+      "type": "partial_blockage",
+      "duration_min": 238,
+      "start_idx": 26559,
+      "end_idx": 26797
+    },
+    {
+      "timestamp": "2024-01-17 01:32:00",
+      "type": "electrical_fault",
+      "duration_min": 234,
+      "start_idx": 23132,
+      "end_idx": 23366
+    }
+  ],
+  "sensor_parameters": {
+    "temperature": {
+      "mean": 45.0,
+      "std": 3.0,
+      "min": 20,
+      "max": 85
+    },
+    "vibration": {
+      "mean": 2.5,
+      "std": 0.4,
+      "min": 0,
+      "max": 15
+    },
+    "pressure": {
+      "mean": 6.5,
+      "std": 0.5,
+      "min": 0,
+      "max": 12
+    },
+    "flow_rate": {
+      "mean": 150.0,
+      "std": 10.0,
+      "min": 0,
+      "max": 250
+    },
+    "current": {
+      "mean": 85.0,
+      "std": 5.0,
+      "min": 0,
+      "max": 150
+    },
+    "duty_cycle": {
+      "mean": 75.0,
+      "std": 8.0,
+      "min": 0,
+      "max": 100
+    }
+  }
+}

@@ -1,0 +1,86 @@
+# Docker Compose for Industrial IoT Anomaly Detection
+# Provides easy deployment and service orchestration
+# Author: Lucas William Junges
+# Date: December 2024
+
+version: '3.8'
+
+services:
+  # Main application service
+  anomaly-detection:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: iot-anomaly-detection:latest
+    container_name: iot-anomaly-pipeline
+
+    # Resource limits (adjust based on your hardware)
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4G
+        reservations:
+          cpus: '1.0'
+          memory: 2G
+
+    # Mount volumes for persistent data
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./src:/app/src  # For development hot-reload
+
+    # Environment variables
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TF_CPP_MIN_LOG_LEVEL=2
+      - OMP_NUM_THREADS=2
+
+    # Keep container running for interactive use
+    stdin_open: true
+    tty: true
+
+    # Networks
+    networks:
+      - iot-network
+
+  # Optional: Jupyter notebook service for exploration
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: iot-anomaly-detection:latest
+    container_name: iot-jupyter
+
+    ports:
+      - "8888:8888"
+
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./src:/app/src
+      - ./notebooks:/app/notebooks
+
+    environment:
+      - PYTHONUNBUFFERED=1
+      - JUPYTER_ENABLE_LAB=yes
+
+    command: >
+      jupyter notebook
+      --ip=0.0.0.0
+      --port=8888
+      --no-browser
+      --allow-root
+      --NotebookApp.token=''
+      --NotebookApp.password=''
+
+    networks:
+      - iot-network
+
+networks:
+  iot-network:
+    driver: bridge
+
+volumes:
+  data-volume:
+  model-volume:

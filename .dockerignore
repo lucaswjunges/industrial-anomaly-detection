@@ -1,0 +1,67 @@
+# Docker ignore file - excludes unnecessary files from Docker build context
+# Reduces build time and image size
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Data files (will be mounted as volumes)
+data/
+*.csv
+*.pkl
+*.h5
+*.json
+models/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Documentation
+docs/
+*.pdf
+*.tex
+*.md
+*.txt
+!requirements.txt
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+tests/
+htmlcov/
+.coverage
+.pytest_cache/
+.tox/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Misc
+figures/
+*.log
+*.zip
+*.tar.gz

@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (too large for Git)
+data/raw/*.csv
+data/processed/*.csv
+data/results/*.json
+data/results/*.txt
+*.h5
+*.hdf5
+
+# Trained models (too large for Git)
+models/*.pkl
+models/*/*.pkl
+models/*/*.h5
+models/*/*.json
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Docker
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Keep important files
+!README.md
+!LICENSE
+!requirements.txt
+!.gitignore
+
+# Keep directory structure
+!data/.gitkeep
+!models/.gitkeep
+!figures/.gitkeep
