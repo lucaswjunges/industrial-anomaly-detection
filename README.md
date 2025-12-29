@@ -22,8 +22,8 @@ This project implements an end-to-end machine learning pipeline for detecting an
 
 ```bash
 # Clone and install
-git clone https://github.com/yourusername/iot-anomaly-detection.git
-cd iot-anomaly-detection
+git clone https://github.com/lucaswjunges/industrial-anomaly-detection.git
+cd industrial-anomaly-detection
 pip install -r requirements.txt
 
 # Train models on NASA bearing data
@@ -238,4 +238,4 @@ pytest tests/ -v
 
 ## Contact
 
-GitHub: [@yourusername](https://github.com/yourusername)
+GitHub: [@lucaswjunges](https://github.com/lucaswjunges)
